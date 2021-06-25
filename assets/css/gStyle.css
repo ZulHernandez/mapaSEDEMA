@@ -1,0 +1,337 @@
+/*SCROLL BAR----------------------------------------------------------------------------------------------------------*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0f4c42;
+    /*color: #999999*/
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: transparent;
+}
+
+
+/*BODY----------------------------------------------------------------------------------------------------------*/
+body {
+    overflow-x: hidden;
+    padding: 0px;
+    font-family: SourceSP-R;
+    color: #707070;
+    font-kerning: none;
+    font-size: 1vw;
+}
+
+
+/*FONTS----------------------------------------------------------------------------------------------------------*/
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #19806f;
+}
+
+::selection {
+    color: white;
+    background: #19806f;
+}
+
+@font-face {
+    font-family: "Gotham-M";
+    src: url(../../src/fonts/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: "SourceSP-R";
+    src: url(../../src/fonts/SourceSansPro-Regular.ttf);
+}
+
+.text-goth,h1,h2,h3,h4,.sub-sub,.div-date,.div-event{
+    font-family: Gotham-M;
+}
+
+.text-source {
+    font-family: SourceSP-R;
+}
+
+
+/*TEXTS----------------------------------------------------------------------------------------------------------*/
+h1 {
+    font-size: 3vw;
+    font-weight: bolder;
+    color: #0f4c42;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #0f4c42;
+}
+
+h3{
+    font-size: 1vw;
+    font-weight: bolder;
+    color: #0f4c42;
+}
+
+h4{
+    color: #0f4c42;
+    font-weight: bold;
+}
+
+b,i {
+    color: #0f4c42;
+}
+
+.no-deco:hover {
+    text-decoration: none;
+    cursor: text;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.anpName {
+    padding: 8px 0px;
+    font-size: 0.75vw;
+}
+
+a,
+a::after,
+a:hover {
+    text-decoration: underline;
+    color: #0f4c42;
+}
+
+.sub-sub {
+    font-size: 1.8vw;
+}
+
+.text-para {
+    text-align: justify;
+}
+
+.text-inv-card {
+    color: white;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+
+.img-foot{
+    padding-top: 5px;
+    font-size: 0.7vw;
+}
+
+.img-icon-txt{
+    font-size: 0.9vw;
+}
+
+/*SWALS----------------------------------------------------------------------------------------------------------*/
+.swal2-content {
+    padding: 0px;
+}
+
+.swal2-actions {
+    display: none;
+}
+
+.place-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.col-white {
+    background-color: white;
+    text-align: left;
+    padding: 90px 0px 0px 0px;
+}
+
+.col-text {
+    padding: 0px 50px 0px 50px;
+    padding-top: 20vw;
+    color: #898D8D;
+}
+
+.popover__wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.popover__content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: 350px;
+}
+
+.popover__wrapper:hover .popover__content {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+
+/*IMAGES----------------------------------------------------------------------------------------------------------*/
+.cdmx-texture {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.img-pet {
+    width: 130%;
+    transition: transform 0.1s;
+}
+
+.img-pet:hover {
+    transform: scale(1.25);
+}
+
+.img-poli{
+    width: 80%;
+}
+
+.hero,.grid-img-3,.grid-img-2{
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+    height: 25vw;
+}
+
+.grid-img-3{
+    height: 25vw;
+}
+
+.grid-img-2{
+    height: 16vw;
+}
+
+.grid-img-2,.grid-img-3{
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-position: left;
+    background-blend-mode: luminosity;
+    background-color: #00110e;
+    transition: all 1s;
+}
+
+.grid-img-2:hover,.grid-img-3:hover{
+    cursor: pointer;
+    background-blend-mode: normal;    
+}
+
+
+
+/*DIVS----------------------------------------------------------------------------------------------------------*/
+.hero {
+    background-image: url(../../src/imgs/fondo.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+    padding: 90px 0px;
+}
+
+.div-map {
+    background-image: url(../../src/imgs/fondoPasto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-color: rgba(137, 141, 141, 0.1);
+    padding: 180px 0px;
+}
+
+.vl {
+    border-left: 3px solid #707070;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.display-no {
+    display: block;
+}
+
+
+.carousel-indicators .active {
+    background-color: #0f4c42;
+}
+
+.div-cov {
+    background-color: #f16325;
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+.div-cov:hover {
+    background-color: white;
+    color: #f16325;
+    cursor: pointer;
+}
+
+.container-body {
+    padding: 0px 150px;
+}
+
+.container-element {
+    padding: 50px 100px;
+}
+
+.space {
+    height: 5vw;
+}
+
+.inv-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 30vw;
+}
+
+.col-green {
+    background-color: #156a5c;
+    color: white;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    background-image: url(../../src/imgs/textCard.svg);
+    background-repeat: repeat;
+    background-size: 4vw;
+    background-position: center;
+    background-attachment: initial;
+    transition-duration: 0.5s;
+}
+
+.col-green:hover {
+    background-color: #0f4c42;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*DIVS----------------------------------------------------------------------------------------------------------*/
+.tab-head{
+    background-color: #0f4c42;
+    color: white;
+}

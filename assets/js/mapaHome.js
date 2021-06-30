@@ -21,69 +21,69 @@ function setup() {
 
 function draw() {
     clear();
-    img.resize(width, 0);
-    image(img, 0, 0);
+    img.resize(width/100*90, 0);
+    image(img, 0, 10);
     alcaldias();
     anpNum();
-    d = dist(mouseX, mouseY, w / 8.5, w / 90);
+    d = dist(mouseX, mouseY, w / 8.3, w / 90);
     if (d <= width / 24) {
-        drawcircle(w / 8.5, w / 90, 1, 1);
+        drawcircle(w / 8.3, w / 90, 1, 1);
     } else {
-        d = dist(mouseX, mouseY, w / 7, w / 40);
+        d = dist(mouseX, mouseY, w / 7.3, w / 40);
         if (d <= width / 24) {
-            drawcircle(w / 7, w / 40, 2, 1);
+            drawcircle(w / 7.3, w / 40, 2, 1);
         } else {
-            d = dist(mouseX, mouseY, w / 15, w / 9);
+            d = dist(mouseX, mouseY, w / 15, w / 10);
             if (d <= width / 24) {
-                drawcircle(w / 15, w / 9, 3, 1);
+                drawcircle(w / 15, w / 10, 3, 1);
             } else {
-                d = dist(mouseX, mouseY, w / 12, w / 7.7);
+                d = dist(mouseX, mouseY, w / 12, w / 8.5);
                 if (d <= width / 24) {
-                    drawcircle(w / 12, w / 7.7, 4, 1);
+                    drawcircle(w / 12, w / 8.5, 4, 1);
                 } else {
-                    d = dist(mouseX, mouseY, w / 90, w / 5.3);
+                    d = dist(mouseX, mouseY, w / 90, w / 5.7);
                     if (d <= width / 24) {
-                        drawcircle(w / 90, w / 5.3, 5, 1);
+                        drawcircle(w / 90, w / 5.7, 5, 1);
                     } else {
-                        d = dist(mouseX, mouseY, w / 30, w / 5.7);
+                        d = dist(mouseX, mouseY, w / 30, w / 6);
                         if (d <= width / 24) {
-                            drawcircle(w / 30, w / 5.7, 6, 1);
+                            drawcircle(w / 30, w / 6, 6, 1);
                         } else {
-                            d = dist(mouseX, mouseY, w / 16, w / 5.7);
+                            d = dist(mouseX, mouseY, w / 18, w / 6);
                             if (d <= width / 24) {
-                                drawcircle(w / 16, w / 5.7, 7, 1);
+                                drawcircle(w / 18, w / 6, 7, 1);
                             } else {
-                                d = dist(mouseX, mouseY, w / 20, w / 4.7);
+                                d = dist(mouseX, mouseY, w / 20, w / 5.1);
                                 if (d <= width / 24) {
-                                    drawcircle(w / 20, w / 4.7, 8, 1);
+                                    drawcircle(w / 20, w / 5.1, 8, 1);
                                 } else {
-                                    d = dist(mouseX, mouseY, w / 12, w / 4.5);
+                                    d = dist(mouseX, mouseY, w / 13, w / 4.8);
                                     if (d <= width / 24) {
-                                        drawcircle(w / 12, w / 4.5, 9, 1);
+                                        drawcircle(w / 13, w / 4.8, 9, 1);
                                     } else {
-                                        d = dist(mouseX, mouseY, w / 11, w / 5.1);
+                                        d = dist(mouseX, mouseY, w / 12, w / 5.5);
                                         if (d <= width / 24) {
-                                            drawcircle(w / 11, w / 5.1, 10, 1);
+                                            drawcircle(w / 12, w / 5.5, 10, 1);
                                         } else {
-                                            d = dist(mouseX, mouseY, w / 9, w / 4.8);
+                                            d = dist(mouseX, mouseY, w / 9.2, w / 5);
                                             if (d <= width / 24) {
-                                                drawcircle(w / 9, w / 4.8, 11, 1);
+                                                drawcircle(w / 9.2, w / 5, 11, 1);
                                             } else {
-                                                d = dist(mouseX, mouseY, w / 6, w / 5.5);
+                                                d = dist(mouseX, mouseY, w / 6.5, w / 5.7);
                                                 if (d <= width / 24) {
-                                                    drawcircle(w / 6, w / 5.5, 12, 1);
+                                                    drawcircle(w / 6.5, w / 5.7, 12, 1);
                                                 } else {
-                                                    d = dist(mouseX, mouseY, w / 4.8, w / 5.3);
+                                                    d = dist(mouseX, mouseY, w / 5.3, w / 5.6);
                                                     if (d <= width / 24) {
-                                                        drawcircle(w / 4.8, w / 5.3, 13, 1);
+                                                        drawcircle(w / 5.3, w / 5.6, 13, 1);
                                                     } else {
-                                                        d = dist(mouseX, mouseY, w / 5.4, w / 6);
+                                                        d = dist(mouseX, mouseY, w / 5.7, w / 6.5);
                                                         if (d <= width / 24) {
-                                                            drawcircle(w / 5.4, w / 6, 14, 1);
+                                                            drawcircle(w / 5.7, w / 6.5, 14, 1);
                                                         } else {
-                                                            d = dist(mouseX, mouseY, w / 6, w / 8);
+                                                            d = dist(mouseX, mouseY, w / 6.2, w / 8);
                                                             if (d <= width / 24) {
-                                                                drawcircle(w / 6, w / 8, 15, 1);
+                                                                drawcircle(w / 6.2, w / 8, 15, 1);
                                                             }
                                                         }
                                                     }
@@ -102,63 +102,63 @@ function draw() {
 }
 
 function mousePressed() {
-    d = dist(mouseX, mouseY, w / 8.5, w / 90);
+    d = dist(mouseX, mouseY, w / 8.3, w / 90);
     if (d <= width / 24) {
         window.open('assets/pages/sitios/armella.php','_self');
     } else {
-        d = dist(mouseX, mouseY, w / 7, w / 40);
+        d = dist(mouseX, mouseY, w / 7.3, w / 40);
         if (d <= width / 24) {
             window.open('assets/pages/sitios/sierraG.php','_self');
         } else {
-            d = dist(mouseX, mouseY, w / 15, w / 9);
+            d = dist(mouseX, mouseY, w / 15, w / 10);
             if (d <= width / 24) {
                 window.open('assets/pages/sitios/bosqueL.php','_self');
             } else {
-                d = dist(mouseX, mouseY, w / 12, w / 7.7);
+                d = dist(mouseX, mouseY, w / 12, w / 8.5);
                 if (d <= width / 24) {
                     window.open('assets/pages/sitios/loma.php','_self');
                 } else {
-                    d = dist(mouseX, mouseY, w / 90, w / 5.3);
+                    d = dist(mouseX, mouseY, w / 90, w / 5.7);
                     if (d <= width / 24) {
-                        alert("5");
+                        window.open('assets/pages/sitios/insurgente.php','_self');
                     } else {
-                        d = dist(mouseX, mouseY, w / 30, w / 5.7);
+                        d = dist(mouseX, mouseY, w / 30, w / 6);
                         if (d <= width / 24) {
-                            alert("6");
+                            window.open('assets/pages/sitios/desierto.php','_self');
                         } else {
-                            d = dist(mouseX, mouseY, w / 16, w / 5.7);
+                            d = dist(mouseX, mouseY, w / 18, w / 6);
                             if (d <= width / 24) {
                                 alert("7");
                             } else {
-                                d = dist(mouseX, mouseY, w / 20, w / 4.7);
+                                d = dist(mouseX, mouseY, w / 20, w / 5.1);
                                 if (d <= width / 24) {
                                     alert("8");
                                 } else {
-                                    d = dist(mouseX, mouseY, w / 12, w / 4.5);
+                                    d = dist(mouseX, mouseY, w / 13, w / 4.8);
                                     if (d <= width / 24) {
-                                        alert("9");
+                                        window.open('assets/pages/sitios/pCDMX.php','_self');
                                     } else {
-                                        d = dist(mouseX, mouseY, w / 11, w / 5.1);
+                                        d = dist(mouseX, mouseY, w / 12, w / 5.5);
                                         if (d <= width / 24) {
                                             alert("10");
                                         } else {
-                                            d = dist(mouseX, mouseY, w / 9, w / 4.8);
+                                            d = dist(mouseX, mouseY, w / 9.2, w / 5);
                                             if (d <= width / 24) {
                                                 alert("11");
                                             } else {
-                                                d = dist(mouseX, mouseY, w / 6, w / 5.5);
+                                                d = dist(mouseX, mouseY, w / 6.5, w / 5.7);
                                                 if (d <= width / 24) {
                                                     alert("12");
                                                 } else {
-                                                    d = dist(mouseX, mouseY, w / 4.8, w / 5.3);
+                                                    d = dist(mouseX, mouseY, w / 5.3, w / 5.6);
                                                     if (d <= width / 24) {
                                                         alert("13");
                                                     } else {
-                                                        d = dist(mouseX, mouseY, w / 5.4, w / 6);
+                                                        d = dist(mouseX, mouseY, w / 5.7, w / 6.5);
                                                         if (d <= width / 24) {
                                                             alert("14");
                                                         } else {
-                                                            d = dist(mouseX, mouseY, w / 6, w / 8);
+                                                            d = dist(mouseX, mouseY, w / 6.2, w / 8);
                                                             if (d <= width / 24) {
                                                                 alert("15");
                                                             }
@@ -179,27 +179,27 @@ function mousePressed() {
 }
 
 function anpNum() {
-    drawcircle(w / 8.5, w / 90, 1, 0);
-    drawcircle(w / 7, w / 40, 2, 0);
-    drawcircle(w / 15, w / 9, 3, 0);
-    drawcircle(w / 12, w / 7.7, 4, 0);
-    drawcircle(w / 90, w / 5.3, 5, 0);
-    drawcircle(w / 30, w / 5.7, 6, 0);
-    drawcircle(w / 16, w / 5.7, 7, 0);
-    drawcircle(w / 20, w / 4.7, 8, 0);
-    drawcircle(w / 12, w / 4.5, 9, 0);
-    drawcircle(w / 11, w / 5.1, 10, 0);
-    drawcircle(w / 9, w / 4.8, 11, 0);
-    drawcircle(w / 6, w / 5.5, 12, 0);
-    drawcircle(w / 4.8, w / 5.3, 13, 0);
-    drawcircle(w / 5.4, w / 6, 14, 0);
-    drawcircle(w / 6, w / 8, 15, 0);
+    drawcircle(w / 8.3, w / 90, 1, 0);
+    drawcircle(w / 7.3, w / 40, 2, 0);
+    drawcircle(w / 15, w / 10, 3, 0);
+    drawcircle(w / 12, w / 8.5, 4, 0);
+    drawcircle(w / 90, w / 5.7, 5, 0);
+    drawcircle(w / 30, w / 6, 6, 0);
+    drawcircle(w / 18, w / 6, 7, 0);
+    drawcircle(w / 20, w / 5.1, 8, 0);
+    drawcircle(w / 13, w / 4.8, 9, 0);
+    drawcircle(w / 12, w / 5.5, 10, 0);
+    drawcircle(w / 9.2, w / 5, 11, 0);
+    drawcircle(w / 6.5, w / 5.7, 12, 0);
+    drawcircle(w / 5.3, w / 5.6, 13, 0);
+    drawcircle(w / 5.7, w / 6.5, 14, 0);
+    drawcircle(w / 6.2, w / 8, 15, 0);
 }
 
 function alcaldias() {
     alcName("Azcapotzalco", w / 11.5, w / 15);
     alcName("Gustavo A. \nMadero", w / 7.5, w / 16);
-    alcName("Miguel \nHidalgo", w / 12, w / 10);
+    alcName("Miguel \nHidalgo", w / 12, w / 8.5);
     alcName("Cuahutémoc", w / 9.1, w / 9.5);
     alcName("Venustiano \nCarranza", w / 7, w / 10);
     alcName("Cuajimalpa \nde Morelos", w / 40, w / 6.7);

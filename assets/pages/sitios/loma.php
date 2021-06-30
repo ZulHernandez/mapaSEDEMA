@@ -9,7 +9,7 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="../../dist/js/p5.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
-    <script type="text/javascript" src="../../../assets/js/sitios/bosquesL.js"></script>
+    <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
     <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="stylesheet" href="../../css/sitios/bosquesLStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
@@ -69,17 +69,17 @@
         <p class="text-para">Por su parte, existe una <b>vegetación inducida</b>, que refleja el propósito de obtener una cubierta vegetal arbórea lo más rápidamente posible, sin considerar la selección de especies más apropiadas o la formación de una cubierta vegetal diversa y acorde con las condiciones ambientales del área circundante como el bosque de encino.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/1.jpg);">
+            <div onclick="fireSwaltar('Bos',0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/1.jpg);">
             </div>
-            <div onclick="fireSwal(1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/2.jpg);">
+            <div onclick="fireSwaltar('Bos',1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/2.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(2)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/3.jpg);">
+            <div onclick="fireSwaltar('Bos',2)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/3.jpg);">
             </div>
-            <div onclick="fireSwal(3)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/4.jpg);">
+            <div onclick="fireSwaltar('Bos',3)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/4.jpg);">
             </div>
-            <div onclick="fireSwal(4)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/5.jpg);">
+            <div onclick="fireSwaltar('Bos',4)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/5.jpg);">
             </div>
         </div>
         <br />
@@ -87,23 +87,23 @@
         <p class="text-para">De las 19 especies, tres se encuentran enlistadas en la NOM-059-SEMARNAT-2010: gavilán pecho canela <i>(Accipiterstriatus)</i>, vencejo nuca blanca mexicano <i>(Streptoprocne semicollaris)</i> y aguililla alas anchas <i>(Buteo platypterus)</i>.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(5)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/6.jpg);">
+            <div onclick="fireSwaltar('Bos',5)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/6.jpg);">
             </div>
-            <div onclick="fireSwal(6)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/7.jpg);">
-            </div>
-        </div>
-        <div class="row">
-            <div onclick="fireSwal(7)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/8.jpg);">
-            </div>
-            <div onclick="fireSwal(8)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/9.jpg);">
-            </div>
-            <div onclick="fireSwal(9)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/10.jpg);">
+            <div onclick="fireSwaltar('Bos',6)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/7.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(10)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/11.jpg);">
+            <div onclick="fireSwaltar('Bos',7)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/8.jpg);">
             </div>
-            <div onclick="fireSwal(11)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/12.jpg);">
+            <div onclick="fireSwaltar('Bos',8)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/9.jpg);">
+            </div>
+            <div onclick="fireSwaltar('Bos',9)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/10.jpg);">
+            </div>
+        </div>
+        <div class="row">
+            <div onclick="fireSwaltar('Bos',10)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/11.jpg);">
+            </div>
+            <div onclick="fireSwaltar('Bos',11)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/12.jpg);">
             </div>
         </div>
         <div class="space"></div>

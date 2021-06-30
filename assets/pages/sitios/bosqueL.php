@@ -9,7 +9,7 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="../../dist/js/p5.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
-    <script type="text/javascript" src="../../../assets/js/sitios/bosquesL.js"></script>
+    <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
     <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="stylesheet" href="../../css/sitios/bosquesLStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
@@ -67,40 +67,40 @@
         <p class="text-para">El encino <i>(Quercus spp.)</i> es una especie clave en la restauración de ecosistemas, ya que, sus profundas raíces contribuyen a la infiltración y conservación de mantos acuíferos; sus hojas ayudan a la formación y estabilización del suelo; así como es la casa y alimento de otras especies. </p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/1.jpg);">
+            <div onclick="fireSwaltar('Bos',0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/1.jpg);">
             </div>
-            <div onclick="fireSwal(1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/2.jpg);">
+            <div onclick="fireSwaltar('Bos',1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/2.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(2)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/3.jpg);">
+            <div onclick="fireSwaltar('Bos',2)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/3.jpg);">
             </div>
-            <div onclick="fireSwal(3)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/4.jpg);">
+            <div onclick="fireSwaltar('Bos',3)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/4.jpg);">
             </div>
-            <div onclick="fireSwal(4)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/5.jpg);">
+            <div onclick="fireSwaltar('Bos',4)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/5.jpg);">
             </div>
         </div>
         <br />
         <p class="text-para">Actualmente, se requiere de nuevas investigaciones para conocer más sobre la biodiversidad que conserva Bosques de las Lomas, sin embargo, asociaciones vecinales en pro de la conservación del medio ambiente han realizado <b>monitoreos de aves</b> registrando especies como: picogordo tigrillo <i>(Pheucticus melanocephalus)</i>​​, capulinero gris <i>(Ptilogonys cinereus)</i>, carpintero bellotero <i>(Melanerpes formicivorus)</i>, cernícalo americano <i>(Falco sparverius)</i>, colibrí berilo <i>(Saucerottia beryllina)</i>, papamoscas cardenalito <i>(Pyrocephalus rubinus)</i>, así como las especies endémicas mirlo dorso canela <i>(Turdus rufopalliatus)</i>, calandria flancos negros <i>(Icterus abeillei)</i> y mulato azul​ <i>(Melanotis caerulescens)</i>.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(5)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/6.jpg);">
+            <div onclick="fireSwaltar('Bos',5)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/6.jpg);">
             </div>
-            <div onclick="fireSwal(6)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/7.jpg);">
-            </div>
-        </div>
-        <div class="row">
-            <div onclick="fireSwal(7)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/8.jpg);">
-            </div>
-            <div onclick="fireSwal(8)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/9.jpg);">
-            </div>
-            <div onclick="fireSwal(9)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/10.jpg);">
+            <div onclick="fireSwaltar('Bos',6)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/7.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(10)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/11.jpg);">
+            <div onclick="fireSwaltar('Bos',7)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/8.jpg);">
             </div>
-            <div onclick="fireSwal(11)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/12.jpg);">
+            <div onclick="fireSwaltar('Bos',8)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/9.jpg);">
+            </div>
+            <div onclick="fireSwaltar('Bos',9)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/10.jpg);">
+            </div>
+        </div>
+        <div class="row">
+            <div onclick="fireSwaltar('Bos',10)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/11.jpg);">
+            </div>
+            <div onclick="fireSwaltar('Bos',11)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/12.jpg);">
             </div>
         </div>
         <div class="space"></div>
@@ -124,15 +124,15 @@
         </div>
         <br />
         <div class="row">
-            <div onclick="fireSwal(12)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/13.jpg);">
+            <div onclick="fireSwaltar('Bos',12)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/13.jpg);">
             </div>
-            <div onclick="fireSwal(13)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/14.jpg);">
+            <div onclick="fireSwaltar('Bos',13)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosquesL/14.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(14)" class="col-7 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/15.jpg);">
+            <div onclick="fireSwaltar('Bos',14)" class="col-7 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/15.jpg);">
             </div>
-            <div onclick="fireSwal(15)" class="col-5 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/16.jpg);">
+            <div onclick="fireSwaltar('Bos',15)" class="col-5 grid-img-2" style="background-image: url(../../../src/imgs/sitios/bosquesL/16.jpg);">
             </div>
         </div>
         <div class="space"></div>

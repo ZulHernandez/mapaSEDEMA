@@ -9,12 +9,10 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="../../dist/js/p5.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
-    <script type="text/javascript" src="../../../assets/js/sitios/armella.js"></script>
+    <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
     <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="stylesheet" href="../../css/sitios/armellaStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 </head>
@@ -72,34 +70,34 @@
         <p class="text-para">Asimismo, debido a reforestaciones pasadas La Armella presenta una porción de plantaciones forestales, que se distribuyen en manchones irregulares con especies como eucalipto <i>(Eucalyptus camaldulensis y Eucalyptus globulus)</i>, pino <i>(Pinus halepensis y Pinus radiata)</i>, retama de tierra caliente <i>(Senna multiglandulosa)</i>, cedro blanco <i>(Cupressus lusitanica)</i> y casuarina <i>(Casuarina equisetifolia)</i>.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(0)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/1.jpg);">
+            <div onclick="fireSwaltar('Arm',0);" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/1.jpg);">
             </div>
-            <div onclick="fireSwal(1)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/2.jpg);">
+            <div onclick="fireSwaltar('Arm',1);" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/2.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(2)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/3.jpg);">
+            <div onclick="fireSwaltar('Arm',2);" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/3.jpg);">
             </div>
-            <div onclick="fireSwal(3)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/4.jpg);">
+            <div onclick="fireSwaltar('Arm',3);" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/4.jpg);">
             </div>
         </div>
         <br />
         <p class="text-para">Del mismo modo que Sierra de Guadalupe, se registran 154 especies de vertebrados, distribuidas en <b>8 especies de anfibios, 21 especies de reptiles, 96 especies de aves y 29 especies de mamíferos.</b> De estos, 20 especies están enlistadas bajo alguna categoría de protección, de acuerdo con la NOM-059-SEMARNAT-2001, 12 están Sujetas a Protección Especial, 7 Amenazadas y una en Peligro de Extinción, 10 de ellas reportadas como endémicas.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(4)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/5.jpg);">
+            <div onclick="fireSwaltar('Arm',4);" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/5.jpg);">
             </div>
-            <div onclick="fireSwal(5)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/6.jpg);">
+            <div onclick="fireSwaltar('Arm',5);" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/6.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(6)" class="col-5 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/7.jpg);">
+            <div onclick="fireSwaltar('Arm',6);" class="col-5 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/7.jpg);">
             </div>
-            <div onclick="fireSwal(7)" class="col-7 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/8.jpg);">
+            <div onclick="fireSwaltar('Arm',7);" class="col-7 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/8.jpg);">
             </div>
         </div>
         <div class="space"></div>
-        <div id="col-green" class="container-fluid col-green" onmouseover="cambiaText(1)" onmouseout="cambiaText(0)">
+        <div id="col-green" class="container-fluid col-green" onmouseover="cambiaText('Arm',1)" onmouseout="cambiaText('Arm',0)">
             La administración de La Armella está a cargo de la Secretaría del Medio Ambiente en coordinación con la Comisión Nacional de Áreas Naturales Protegidas (CONANP).
         </div>
         <div class="space"></div>

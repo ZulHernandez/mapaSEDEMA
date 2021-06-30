@@ -8,11 +8,13 @@
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/dist/js/p5.js" type="text/javascript"></script>
     <script src="assets/js/mapaHome.js" type="text/javascript"></script>
+    <script src="assets/js/covid.js" type="text/javascript"></script>
     <link rel="stylesheet" href="assets/css/gStyle.css">
-    <link rel="shortcut icon" href="src/imgs/iconos/icon.svg" type="image/x-icon">  
+    <link rel="shortcut icon" href="src/imgs/iconos/icon.svg" type="image/x-icon">
 </head>
 
-<body>
+<!--onLoad function only accept 4 values: rojo, naranja, amarillo, verde-->
+<body onload="colorHome('amarillo');">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f4c42;">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="src/imgs/headIcon.svg"></a>
@@ -64,7 +66,7 @@
             </div>
         </div>
     </div>
-    <a href="assets/pages/covid.php" style="text-decoration: none;"><div class="div-cov text-center text-source">
+    <a href="assets/pages/covid.php" style="text-decoration: none;"><div id="divCov" class="div-cov text-center text-source" onmouseover="covHover()" onmouseout="covOut()">
         COVID-19 y tu visita a las Áreas Naturales Protegidas de la Ciudad de México
     </div></a>
     <div class="space"></div>
@@ -84,17 +86,17 @@
                     <div id="mapa"></div>
                 </div>
                 <div class="col-sm-5">
-                    <ol type="1" style="padding-left: 100px;">
+                    <ol type="1" style="padding-left: 50px;">
                         <b>
                             <a href="assets/pages/sitios/armella.php" target="_self"><li class="anpName">La Armella</li></a>
                             <a href="assets/pages/sitios/sierraG.php" target="_self"><li class="anpName">Sierra de Guadalupe</li></a>
                             <a href="assets/pages/sitios/bosqueL.php" target="_self"><li class="anpName">Bosque de las Lomas</li></a>
-                            <li class="anpName">La Loma</li>
-                            <li class="anpName">Insurgente Miguel Hidalgo y Costilla</li>
-                            <li class="anpName">Desierto de los leones</li>
+                            <a href="assets/pages/sitios/loma.php" target="_self"><li class="anpName">La Loma</li></a>
+                            <a href="assets/pages/sitios/insurgente.php" target="_self"><li class="anpName">Insurgente Miguel Hidalgo y Costilla</></a>
+                            <a href="assets/pages/sitios/desierto.php" target="_self"><li class="anpName">Desierto de los leones</li></a>
                             <li class="anpName">San Bernabe Ocotepec</li>
                             <li class="anpName">San Nicolás Totolapan</li>
-                            <li class="anpName">Parque Ecológico de la Ciudad de México</li>
+                            <a href="assets/pages/sitios/pCDMX.php" target="_self"><li class="anpName">Parque Ecológico de la Ciudad de México</li></a>
                             <li class="anpName">Bosque de Tlalpan</li>
                             <li class="anpName">Ecoguardas</li>
                             <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>

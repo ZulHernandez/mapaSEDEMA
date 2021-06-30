@@ -278,7 +278,6 @@ a:hover {
 }
 
 .div-cov {
-    background-color: #f16325;
     color: white;
     font-size: x-large;
     padding: 20px;
@@ -287,8 +286,6 @@ a:hover {
 }
 
 .div-cov:hover {
-    background-color: white;
-    color: #f16325;
     cursor: pointer;
 }
 

@@ -9,7 +9,7 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="../../dist/js/p5.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
-    <script type="text/javascript" src="../../../assets/js/sitios/sierraG.js"></script>
+    <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
     <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="stylesheet" href="../../css/sitios/sierraGStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
@@ -68,34 +68,34 @@
         <p class="text-para">En las cañadas mejor conservadas se encuentran remanentes de encinares, mientras que en la parte sur se localizan pastizales, los cuales son resultado de actividades como la ganadería y la agricultura, que provocaron la eliminación de vegetación natural y posteriormente fueron abandonados.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwal(0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/sierraG/1.jpg);">
+            <div onclick="fireSwaltar('Sie',0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/sierraG/1.jpg);">
             </div>
-            <div onclick="fireSwal(1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/sierraG/2.jpg);">
+            <div onclick="fireSwaltar('Sie',1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/sierraG/2.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(2)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/sierraG/3.jpg);">
+            <div onclick="fireSwaltar('Sie',2)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/sierraG/3.jpg);">
             </div>
-            <div onclick="fireSwal(3)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/sierraG/4.jpg);">
+            <div onclick="fireSwaltar('Sie',3)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/sierraG/4.jpg);">
             </div>
         </div>
         <br />
         <p class="text-para">En cuanto a su fauna, se registran 135 especies de vertebrados, distribuidas en <b>8 especies de anfibios, 20 especies de reptiles, 80 especies de aves y 27 especies de mamíferos</b>. De estos, 18 especies están enlistadas bajo alguna categoría de protección, de acuerdo con la <b>NOM-059-SEMARNAT-2001</b>, 11 están Sujetas a Protección Especial, 6 Amenazadas y una en Peligro de Extinción, 8 de ellas reportadas como endémicas.
             <br />
         <div class="row">
-            <div onclick="fireSwal(4)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/5.jpg);">
+            <div onclick="fireSwaltar('Sie',4)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/5.jpg);">
             </div>
-            <div onclick="fireSwal(5)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/6.jpg);">
+            <div onclick="fireSwaltar('Sie',5)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/armella/6.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwal(6)" class="col-5 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/7.jpg);">
+            <div onclick="fireSwaltar('Sie',6)" class="col-5 grid-img-2" style="background-image: url(../../../src/imgs/sitios/armella/7.jpg);">
             </div>
-            <div onclick="fireSwal(7)" class="col-7 grid-img-2" style="background-image: url(../../../src/imgs/sitios/sierraG/8.jpg);">
+            <div onclick="fireSwaltar('Sie',7)" class="col-7 grid-img-2" style="background-image: url(../../../src/imgs/sitios/sierraG/8.jpg);">
             </div>
         </div>
         <div class="space"></div>
-        <div id="col-green" class="container-fluid col-green" onmouseover="cambiaText(1)" onmouseout="cambiaText(0)">
+        <div id="col-green" class="container-fluid col-green" onmouseover="cambiaText('Sie',1)" onmouseout="cambiaText('Sie',0)">
             La administración de Sierra de Guadalupe está a cargo de la Secretaría del Medio Ambiente en coordinación con la Comisión Nacional de Áreas Naturales Protegidas (CONANP).
         </div>
         <div class="space"></div>

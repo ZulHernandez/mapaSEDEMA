@@ -140,7 +140,7 @@ function mousePressed() {
                                     } else {
                                         d = dist(mouseX, mouseY, w / 12, w / 5.5);
                                         if (d <= width / 24) {
-                                            alert("10");
+                                            window.open('assets/pages/sitios/bosqueT.php','_self');
                                         } else {
                                             d = dist(mouseX, mouseY, w / 9.2, w / 5);
                                             if (d <= width / 24) {

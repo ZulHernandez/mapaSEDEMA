@@ -1,5 +1,27 @@
 var colorts;
 
+function colorHome(color) {
+	var divCov = document.getElementById("divCov");
+	var dot;
+	switch (color) {
+		case "verde":
+			colorts = "#00843d";
+			break;
+		case "amarillo":
+			colorts = "#ffc200";
+			break;
+		case "naranja":
+			colorts = "#f65545";
+			break;
+		case "rojo":
+			colorts = "#cb2833";
+			break;
+	}
+	divCov.style.backgroundColor = colorts;
+}
+
+
+
 function color(color) {
 	var h1 = document.getElementsByTagName("h1");
 	var h2 = document.getElementsByTagName("h2");
@@ -48,26 +70,6 @@ function color(color) {
 	dot.style.backgroundColor = colorts;
 	name.innerHTML = color;
 	tab.style.backgroundColor = colorts;
-	divCov.style.backgroundColor = colorts;
-}
-
-function colorHome(color) {
-	var divCov = document.getElementById("divCov");
-	var dot;
-	switch (color) {
-		case "verde":
-			colorts = "#00843d";
-			break;
-		case "amarillo":
-			colorts = "#ffc200";
-			break;
-		case "naranja":
-			colorts = "#f65545";
-			break;
-		case "rojo":
-			colorts = "#cb2833";
-			break;
-	}
 	divCov.style.backgroundColor = colorts;
 }
 

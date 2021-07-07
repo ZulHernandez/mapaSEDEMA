@@ -529,3 +529,67 @@ imgAnp = [
 			"<p>Está presente en las Áreas Naturales Protegidas: Bosque de Tlalpan, Cerro de la Estrella, Parque Ecológico de la Ciudad de México y Sierra de Santa Catarina.</p>",
 	},
 ];
+
+imgBot = [
+	{
+		img: "url(../../../src/imgs/sitios/bosqueT/1.jpg)",
+		tit: "Río de Lava",
+		desc:
+			"<p>Matorral Xerófilo</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/2.jpg)",
+		tit: "",
+		desc:
+			"<p>Agave ssp.</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/3.jpg)",
+		tit: "Biznaga de chilitos",
+		desc:
+			"<p>Mammillaria magnimma</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/4.jpg)",
+		tit: "Acacia",
+		desc:
+			"<p>Acacia ssp.</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/5.jpg)",
+		tit: "Carpintero mexicano",
+		desc:
+			"<p>Picoides scalaris</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/6.jpg)",
+		tit: "Tarántula del pedrega",
+		desc:
+			"<p>Aphonopelma anitahoffmannae</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/7.jpg)",
+		tit: "Reinita coronirrufa",
+		desc:
+			"<p>Basileuterus rufifrons</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/8.jpg)",
+		tit: "Mariposa cometa quexquemetl",
+		desc:
+			"<p>Papilio garamas</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/9.jpg)",
+		tit: "Cabañas para realizar picnici con tu familia.",
+		desc:
+			"<p>Sólo debes hacer tu reservación en las Oficinas de Administración.</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/10.jpg)",
+		tit: "Pista de arcilla de 886 m",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/11.jpg)",
+		tit: "Área de Juegos Infantiles",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/bosqueT/12.jpg)",
+		tit: "",
+		desc:
+			"<p>Conocido como Encino Abuelo, debido a que tiene aproximadamente 150 años de edad, y es una de las especies representativas del Área Natural Protegida.</p>",
+	},
+];

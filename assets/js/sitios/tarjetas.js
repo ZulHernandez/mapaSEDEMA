@@ -32,6 +32,11 @@ function fireSwaltar(pre, num) {
 			tit = imgCDMX[num].tit;
 			desc = imgCDMX[num].desc;
 			break;
+		case "Bot":
+			img = imgBot[num].img;
+			tit = imgBot[num].tit;
+			desc = imgBot[num].desc;
+			break;
 		default:
 			break;
 	}
@@ -75,16 +80,14 @@ function cambiaText(pre, num) {
 			break;
 		case "Des":
 			if (num == 1) {
-                caja.innerHTML =
-                    "La administración de Desierto de los Leones está a cargo de la Secretaría del Medio Ambiente en coordinación con la Comisión Nacional de Áreas Naturales Protegidas (CONANP).";
-            } else {
-                caja.innerHTML =
-                    "El 27 de noviembre de 1917 el Área Natural Protegida Desierto de los Leones es decretada bajo la categoría de Parque Nacional.";
-            }
+				caja.innerHTML =
+					"La administración de Desierto de los Leones está a cargo de la Secretaría del Medio Ambiente en coordinación con la Comisión Nacional de Áreas Naturales Protegidas (CONANP).";
+			} else {
+				caja.innerHTML =
+					"El 27 de noviembre de 1917 el Área Natural Protegida Desierto de los Leones es decretada bajo la categoría de Parque Nacional.";
+			}
 			break;
 		default:
 			break;
 	}
 }
-
-

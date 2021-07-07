@@ -97,7 +97,7 @@
                             <li class="anpName">San Bernabe Ocotepec</li>
                             <li class="anpName">San Nicolás Totolapan</li>
                             <a href="assets/pages/sitios/pCDMX.php" target="_self"><li class="anpName">Parque Ecológico de la Ciudad de México</li></a>
-                            <li class="anpName">Bosque de Tlalpan</li>
+                            <a href="assets/pages/sitios/bosqueT.php" target="_self"><li class="anpName">Bosque de Tlalpan</li></a>
                             <li class="anpName">Ecoguardas</li>
                             <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>
                             <li class="anpName">Tempiluli</li>

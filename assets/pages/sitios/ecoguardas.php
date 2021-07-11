@@ -2,7 +2,7 @@
 
 <head>
     <title>
-        ANP | Bosques de Tlalpan
+        ANP | Ecoguardas
     </title>
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../../dist/js/bootstrap.bundle.min.js"></script>
@@ -11,7 +11,7 @@
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
     <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
     <link rel="stylesheet" href="../../css/gStyle.css">
-    <link rel="stylesheet" href="../../css/sitios/bosqueTStyle.css">
+    <link rel="stylesheet" href="../../css/sitios/ecoguardasStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
@@ -50,58 +50,61 @@
     <div class="container-fluid hero" style="padding: 0px;"></div>
     <div class="space"></div>
     <div class="container container-body">
-        <h1 class="text-goth">Bosques de Tlalpan</h1>
-        <p class="text-goth sub-sub">ZONA ECOLÓGICA Y CULTURAL</p>
+        <h1 class="text-goth">Ecoguardas</h1>
+        <p class="text-goth sub-sub">ZONA DE CONSERVACIÓN ECOLÓGICA</p>
         <br />
-        <p class="text-para">Después del Parque Ecológico de la Ciudad de México y con una superficie de <b>252.86 hectáreas</b> es la segunda área boscosa con un entorno propiamente urbano que contiene una muestra original del ecosistema del Pedregal de San Ángel, desarrollada sobre el sustrato basáltico producto de la explosión del volcán Xitle hace aproximadamente 2,000 años.</p>
+        <p class="text-para">Ecoguardas es una Área Natural Protegida con una superficie de <b>132.63 hectáreas</b> ubicada en la alcaldía Tlalpan, al suroeste de la Ciudad de México perteneciente a la Serranía del Ajusco, y que al igual que Bosque de Tlalpan y Parque Ecológico de la Ciudad de México, representa una porción del <b>Pedregal de San Ángel​.</b></p>
         <div class="space"></div>
         <div class="container container-element">
             <center>
-                <h4 style="text-align: center;">Mapa poligonal de Bosques de Tlalpan</h4>
+                <h4 style="text-align: center;">Mapa poligonal de Ecoguardas</h4>
                 <br />
-                <img class="img-poli" src="../../../src/imgs/sitios/bosqueT/poligono.png">
+                <!--<img class="img-poli" src="../../../src/imgs/sitios/ecoguardas/poligono.png">-->
             </center>
             <div class="space"></div>
         </div>
-        <p class="text-para">Está área natural está cubierta principalmente por <b>bosque de encino, matorral xerófilo</b>  así como una pequeña porción de <b>bosque cultivado</b>, debido a las reforestaciones realizadas durante la operación de la fábrica de Loreto y Peña Pobre, que colocó especies exóticas en su mayoría eucalipto <i>(Eucalyptus spp.)</i> y pino <i>(Pinus spp.)</i>; vegetación ubicada alrededor de la pista de arcilla y zonas cercanas.  </p>
-        <p class="text-para">Por su parte, en el matorral xerófilo se puede observar un terreno rocoso y pobre en suelo formado por sustrato basáltico color negro, conocido como <b>“Río de Lava”</b>, cuya principales especies vegetales que cubren este espacio son: oreja de burro <i>(Echeveria)</i>, zacate de escobilla <i>(Muhlenbergia robusta)</i>, manfreda <i>(Manfreda Scabra)</i>, cempasúchil <i>(Tagetes)</i>, salvia mexicana <i>(Amaranthus spp)</i>, dahlia <i>(Dahlia Coccínea)</i>,  mira sol <i>(Cosmos bipinnatus)</i>, ocotillo <i>(dodonaea viscosa)</i>, palo dulce <i>(Eysenhardtia polystachya)</i>, siempre viva <i>(Sedum oxypetalum)</i>, palo loco <i>(Senecio praecox)</i>, tunera de terciopelo <i>(Opuntia tomentosa)</i> y maguey <i>(Agave spp.)</i>.</p>
-        <p class="text-para">En la parte oeste del Área Natural Protegida se aprecia el bosque de encinos, una de las principales vegetaciones de la zona, caracterizada por poseer árboles de entre 3 y 12 metros de altura, algunos con más de 150, donde también se encuentra tepozán <i>(Buddleja cordata)</i>, madroño <i>(Arbutus xalapensis)</i>, así como de algunas especies de pino <i>(Pinus spp.)</i>.</p>
+        <p class="text-para">Esta área natural conserva <b>relictos de bosque de encino</b> en buen estado de conservación que ocupan el 18.93% del total de la superficie y conviven con otras especies como tepozán <i>(Buddleja cordata)</i>, mamojuaxtle <i>(Clethra mexicana)</i>, madroño <i>(Arbutus xalapensis)</i>, árbol amargo <i>(Garrya laurifolia)</i>, capulín <i>(Prunus serótina ssp. Capuli)</i> y chaquira <i>(Ceanothus coeruleus)</i>.</p>
+        <p class="text-para">Otra vegetación que predomina en el Área Natural Protegida es el <b>matorral xerófilo</b> que abarca el 41% de su superficie, cuyos paisajes están cubiertos principalmente por palo loco <i>(Pittocaulon praecox)</i>, tepozán <i>(Buddleja cordata)</i>, chapulixtle <i>(Dodonea viscosa)</i>, zoapaxtle <i>(Montamoa tomentosa)</i> y chichicastle <i>(Wigandia urens)</i>.</p>
+        <p class="text-para">El 35.96% de su vegetación restante es representado por <b>bosque de encino con vegetación secundaria</b>. La vegetación secundaria se presenta en zonas en las que existen elementos de disturbio causados por incendios forestales, heladas, sequías, inundaciones, plagas, variaciones climáticas, entre otras.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwaltar('Bot',0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/1.jpg);">
+            <div onclick="fireSwaltar('Eco',0)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/1.jpg);">
             </div>
-            <div onclick="fireSwaltar('Bot',1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/2.jpg);">
+            <div onclick="fireSwaltar('Eco',1)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/2.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwaltar('Bot',2)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/3.jpg);">
+            <div onclick="fireSwaltar('Eco',2)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/3.jpg);">
             </div>
-            <div onclick="fireSwaltar('Bot',3)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/4.jpg);">
+            <div onclick="fireSwaltar('Eco',3)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/4.jpg);">
             </div>
         </div>
         <br />
-        <p class="text-para">En cuanto a su fauna, habitan cerca de 1,000 especies de invertebrados y 141 especies de vertebrados conformados por <b>9 especies de reptiles, 2 especies de anfibios, 83 especies de aves y 47 especies de mamíferos</b>, de los cuales 7 se encuentran bajo categoría de riesgo, de acuerdo a la NOM-059- SEMARNAT-2001: 1 especie es endémica, 4 se encuentran Amenazadas y 4 Sujetas a Protección Especial.</p>
+        <p class="text-para">En cuanto a su fauna, habitan cerca de 16 especies de invertebrados y 138 especies de vertebrados representados por <b>11 especie de anfibios, 28 especies de reptiles, 56 especies de aves y 43 especies de mamíferos</b>.</p>
+        <p class="text-para">Entre las especies de invertebrados de las que se tiene registro están las abejas <i>(Apis mellifera)</i>, escarabajos de la madera <i>(Eleodes spp.)</i>, mariposas diurnas <i>(Autochton cellus)</i>, mariposa azul marina <i>(Leptotes marina)</i>, mariposa organillo clara <i>(Euptoieta hegesia)</i>, araña <i>(Metepeira spp.)</i>, caracol <i>(Helix aspersa)</i>, hormigas carpinteras <i>(Camponotus spp.)</i>, catarina verde <i>(Zygogramma signatipennis)</i> chapulín <i>(Aidemona spp.)</i> y pulgones <i>(Aphis sp.)</i>.</p>
         <br />
         <div class="row">
-            <div onclick="fireSwaltar('Bot',4)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/5.jpg);">
+            <div onclick="fireSwaltar('Eco',4)" class="col-6 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/5.jpg);">
             </div>
-            <div onclick="fireSwaltar('Bot',5)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/6.jpg);">
+            <div onclick="fireSwaltar('Eco',5)" class="col-6 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/6.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwaltar('Bot',6)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/7.jpg);">
+            <div onclick="fireSwaltar('Eco',6)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/ecoguardas/7.jpg);">
             </div>
-            <div onclick="fireSwaltar('Bot',7)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/8.jpg);">
+            <div onclick="fireSwaltar('Eco',7)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/ecoguardas/8.jpg);">
+            </div>
+            <div onclick="fireSwaltar('Eco',8)" class="col-4 grid-img-2" style="background-image: url(../../../src/imgs/sitios/ecoguardas/9.jpg);">
             </div>
         </div>
         <div class="space"></div>
         <div id="col-green" class="container-fluid col-green">
-            El 17 de junio de 2011 es publicado en la Gaceta Oficial del Distrito Federal, el decreto donde Bosque de Tlalpan es considerada Área Natural Protegida bajo la categoría de Zona Ecológica y Cultural.
+            El 29 de noviembre de 2006 es publicado en la Gaceta Oficial del Distrito Federal, el decreto donde Ecoguardas es considerada Área Natural Protegida bajo la categoría de Zona de Conservación Ecológica.
         </div>
         <div class="space"></div>
         <h2>Disfruta de este lugar</h2>
         <br />
-        <p class="text-para">Bosque de Tlalpan mantiene cuatro accesos, uno de ellos a 15 minutos del Metrobús Villa Olímpica, el cual diariamente es visitado por cientos de corredores que disfrutan de ejercitarse al aire libre en la pista de arcilla de 886 metros.</p>
+        <p class="text-para">Ecoguardas ubicada sobre el kilómetro 5.5 de la carretera Picacho Ajusco es una de las Áreas Naturales Protegidas que puedes conocer a través del <b><a href="http://www.data.sedema.cdmx.gob.mx:8081/culturaambiental/index.php/features-3/centros-de-cultura-ambiental/ecoguardas" target="_blank">Centro de Cultura Ambiental (CCA)</a></b> con el mismo nombre, el cual cuenta con un recorrido guiado, donde también puedes visitar el Museo de la abeja, invernaderos, huertos urbanos y aprender sobre temas de ecotecnias relacionados con captación de agua de lluvia, baño seco, composta y celdas solares. </p>
         <br />
         <div class="row">
             <div class="col"></div>
@@ -112,37 +115,27 @@
                     <h4 class="img-icon-txt">¡Ayudanos a conservar!</h4>
                 </center>
             </div>
-            <div class="col"></div>
-            <div class="col-2">
-                <center>
-                    <img class="img-icon" src="../../../src/imgs/iconos/casco.svg">
-                    <br /><br />
-                    <h4 class="img-icon-txt">Programa de rehabilitación</h4>
-                </center>
-            </div>
-            <div class="col"></div>
+            <div class="col-3"></div>
             <div class="col-2">
                 <center>
                     <img class="img-icon" src="../../../src/imgs/iconos/mapa.svg">
                     <br /><br />
                     <a href="">
-                        <h4 class="img-icon-txt">Mapa para tu visita</h4>
+                        <h4 class="img-icon-txt" style="text-align: center;">Mapa para tu visita</h4>
                     </a>
                 </center>
             </div>
             <div class="col"></div>
         </div>
-        <br />
+        <div class="space"></div>
         <div class="row">
-            <div onclick="fireSwaltar('Bot',8)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/9.jpg);">
-            </div>
-            <div onclick="fireSwaltar('Bot',9)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/10.jpg);">
+            <div onclick="fireSwaltar('Eco',9)" class="col-12 grid-img-3" style="background-image: url(../../../src/imgs/sitios/ecoguardas/10.jpg);">
             </div>
         </div>
         <div class="row">
-            <div onclick="fireSwaltar('Bot',10)" class="col-7 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/11.jpg);">
+            <div onclick="fireSwaltar('Eco',10)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/ecoguardas/11.jpg);">
             </div>
-            <div onclick="fireSwaltar('Bot',11)" class="col-5 grid-img-3" style="background-image: url(../../../src/imgs/sitios/bosqueT/12.jpg);">
+            <div onclick="fireSwaltar('Eco',11)" class="col-6 grid-img-2" style="background-image: url(../../../src/imgs/sitios/ecoguardas/12.jpg);">
             </div>
         </div>
         <div class="space"></div>
@@ -155,15 +148,31 @@
                         <th scope="col">UBICACIÓN</th>
                         <th scope="col">HORARIO DE ATENCIÓN</th>
                         <th scope="col">TELÉFONO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Carretera Picacho Ajusco, kilómetro 5.5, s/n, Ampliación Miguel Hidalgo, 14250 CDMX</td>
+                        <td>Lunes a Viernes de 9 a 17 horas</td>
+                        <td>(55) 51 71 45 58</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br />
+        <p><b>Centro de cultura ambiental</b></p>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr class="tab-head text-goth">
+                        <th scope="col">TELÉFONO</th>
                         <th scope="col">HORARIO DE ACCESO</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="row">Camino a Sta. Teresa S / N, Parques del Pedregal, Tlalpan, 14010 Tlalpan, CDMX.</td>
-                        <td>Lunes a Viernes de 5 a 17 horas</td>
-                        <td>(55) 51 71 45 58</td>
-                        <td scope="row">Horario de visita: 7 a 17 horas de lunes a domingo </td>
+                        <td>(55) 5446-4503 o 5630-5364</td>
+                        <td scope="row">Lunes a Domingo de 9 a 17 horas</td>
                     </tr>
                 </tbody>
             </table>
@@ -175,11 +184,11 @@
             var map = new mapboxgl.Map({
                 container: 'map',
                 style: 'mapbox://styles/zulhernandez/ckpdmziyd83mk18rxachvu66r',
-                center: [-99.191666982407,19.296730903530673],
+                center: [-99.20483115477028, 19.273756759206506],
                 zoom: 15
             });
             var marker = new mapboxgl.Marker()
-                .setLngLat([-99.191666982407,19.296730903530673])
+                .setLngLat([-99.20483115477028, 19.273756759206506])
                 .addTo(map);
         </script>
         <div class="space"></div>

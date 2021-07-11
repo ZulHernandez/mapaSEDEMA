@@ -144,7 +144,7 @@ function mousePressed() {
                                         } else {
                                             d = dist(mouseX, mouseY, w / 9.2, w / 5);
                                             if (d <= width / 24) {
-                                                alert("11");
+                                                window.open('assets/pages/sitios/ecoguardas.php','_self');
                                             } else {
                                                 d = dist(mouseX, mouseY, w / 6.5, w / 5.7);
                                                 if (d <= width / 24) {

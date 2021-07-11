@@ -593,3 +593,67 @@ imgBot = [
 			"<p>Conocido como Encino Abuelo, debido a que tiene aproximadamente 150 años de edad, y es una de las especies representativas del Área Natural Protegida.</p>",
 	},
 ];
+
+imgEco = [
+	{
+		img: "url(../../../src/imgs/sitios/ecoguardas/1.jpg)",
+		tit: "Encino",
+		desc:
+			"<p><i>Quecus ssp.</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/2.jpg)",
+		tit: "Zoapaxtle",
+		desc:
+			"<p><i>Montamoa tomentosa</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/3.jpg)",
+		tit: "Chaquira",
+		desc:
+			"<p><i>Ceanothus coeruleus</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/4.jpg)",
+		tit: "Chapulixtle",
+		desc:
+			"<p><i>Dodonea viscosa</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/5.jpg)",
+		tit: "Abeja",
+		desc:
+			"<p><i>Apis mellifera</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/6.jpg)",
+		tit: "Mariposa diurna",
+		desc:
+			"<p><i>Autochton cellus</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/7.jpg)",
+		tit: "Hormiga carpintera",
+		desc:
+			"<p><i>Camponotus spp.</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/8.jpg)",
+		tit: "Escarabajo de la madera",
+		desc:
+			"<p><i>Eleodes spp.</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/9.jpg)",
+		tit: "Araña",
+		desc:
+			"<p><i>Metepeira sp.</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/10.jpg)",
+		tit: "Mirador",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/11.jpg)",
+		tit: "Centro Cultural Ambiental",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ecoguardas/12.jpg)",
+		tit: "Museo de Abejas",
+		desc:
+			"<p></p>",
+	},
+];

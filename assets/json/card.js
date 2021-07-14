@@ -657,3 +657,47 @@ imgEco = [
 			"<p></p>",
 	},
 ];
+
+imgEji = [
+	{
+		img: "url(../../../src/imgs/sitios/ejidosX/1.jpg)",
+		tit: "",
+		desc:
+			"<p><i>Venessa cardui</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/2.jpg)",
+		tit: "",
+		desc:
+			"<p><i>Molothrus aeneus</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/3.jpg)",
+		tit: "Polilla Esfinge",
+		desc:
+			"<p><i>Xylophanes falco</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/4.jpeg)",
+		tit: "Oruga de Tepozán",
+		desc:
+			"<p><i>Acronyctodes mexicanaria</i></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/5.jpeg)",
+		tit: "",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/6.jpeg)",
+		tit: "",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/7.jpeg)",
+		tit: "",
+		desc:
+			"<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/ejidosX/8.jpeg)",
+		tit: "",
+		desc:
+			"<p></p>",
+	},
+];

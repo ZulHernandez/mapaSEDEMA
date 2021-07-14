@@ -42,6 +42,11 @@ function fireSwaltar(pre, num) {
 			tit = imgEco[num].tit;
 			desc = imgEco[num].desc;
 			break;
+		case "Eji":
+			img = imgEji[num].img;
+			tit = imgEji[num].tit;
+			desc = imgEji[num].desc;
+			break;
 		default:
 			break;
 	}

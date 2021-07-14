@@ -114,7 +114,7 @@ imgBos = [
 	{
 		img: "url(../../../src/imgs/sitios/bosquesL/5.jpg)",
 		tit: "",
-		desc:"<p><i></i></p>",
+		desc: "<p><i></i></p>",
 	},
 	{
 		img: "url(../../../src/imgs/sitios/bosquesL/6.jpg)",
@@ -198,8 +198,8 @@ imgDes = [
 		img: "url(../../../src/imgs/sitios/desierto/5.png)",
 		tit: "Recorridos Escolares",
 		desc: "<p></p>",
-	}
-]
+	},
+];
 
 imgCDMX = [
 	{
@@ -286,8 +286,8 @@ imgCDMX = [
 		img: "url(../../../src/imgs/sitios/pCDMX/17.jpg)",
 		tit: "Cincuate",
 		desc: "<p></p>",
-	}
-]
+	},
+];
 
 data = [
 	{
@@ -534,63 +534,62 @@ imgBot = [
 	{
 		img: "url(../../../src/imgs/sitios/bosqueT/1.jpg)",
 		tit: "Río de Lava",
-		desc:
-			"<p>Matorral Xerófilo</p>",
-	},{
+		desc: "<p>Matorral Xerófilo</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/2.jpg)",
 		tit: "",
-		desc:
-			"<p>Agave ssp.</p>",
-	},{
+		desc: "<p>Agave ssp.</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/3.jpg)",
 		tit: "Biznaga de chilitos",
-		desc:
-			"<p>Mammillaria magnimma</p>",
-	},{
+		desc: "<p>Mammillaria magnimma</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/4.jpg)",
 		tit: "Acacia",
-		desc:
-			"<p>Acacia ssp.</p>",
-	},{
+		desc: "<p>Acacia ssp.</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/5.jpg)",
 		tit: "Carpintero mexicano",
-		desc:
-			"<p>Picoides scalaris</p>",
-	},{
+		desc: "<p>Picoides scalaris</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/6.jpg)",
 		tit: "Tarántula del pedrega",
-		desc:
-			"<p>Aphonopelma anitahoffmannae</p>",
-	},{
+		desc: "<p>Aphonopelma anitahoffmannae</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/7.jpg)",
 		tit: "Reinita coronirrufa",
-		desc:
-			"<p>Basileuterus rufifrons</p>",
-	},{
+		desc: "<p>Basileuterus rufifrons</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/8.jpg)",
 		tit: "Mariposa cometa quexquemetl",
-		desc:
-			"<p>Papilio garamas</p>",
-	},{
+		desc: "<p>Papilio garamas</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/9.jpg)",
 		tit: "Cabañas para realizar picnici con tu familia.",
-		desc:
-			"<p>Sólo debes hacer tu reservación en las Oficinas de Administración.</p>",
-	},{
+		desc: "<p>Sólo debes hacer tu reservación en las Oficinas de Administración.</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/10.jpg)",
 		tit: "Pista de arcilla de 886 m",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/11.jpg)",
 		tit: "Área de Juegos Infantiles",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/bosqueT/12.jpg)",
 		tit: "",
-		desc:
-			"<p>Conocido como Encino Abuelo, debido a que tiene aproximadamente 150 años de edad, y es una de las especies representativas del Área Natural Protegida.</p>",
+		desc: "<p>Conocido como Encino Abuelo, debido a que tiene aproximadamente 150 años de edad, y es una de las especies representativas del Área Natural Protegida.</p>",
 	},
 ];
 
@@ -598,63 +597,62 @@ imgEco = [
 	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/1.jpg)",
 		tit: "Encino",
-		desc:
-			"<p><i>Quecus ssp.</i></p>",
-	},{
+		desc: "<p><i>Quecus ssp.</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/2.jpg)",
 		tit: "Zoapaxtle",
-		desc:
-			"<p><i>Montamoa tomentosa</i></p>",
-	},{
+		desc: "<p><i>Montamoa tomentosa</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/3.jpg)",
 		tit: "Chaquira",
-		desc:
-			"<p><i>Ceanothus coeruleus</i></p>",
-	},{
+		desc: "<p><i>Ceanothus coeruleus</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/4.jpg)",
 		tit: "Chapulixtle",
-		desc:
-			"<p><i>Dodonea viscosa</i></p>",
-	},{
+		desc: "<p><i>Dodonea viscosa</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/5.jpg)",
 		tit: "Abeja",
-		desc:
-			"<p><i>Apis mellifera</i></p>",
-	},{
+		desc: "<p><i>Apis mellifera</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/6.jpg)",
 		tit: "Mariposa diurna",
-		desc:
-			"<p><i>Autochton cellus</i></p>",
-	},{
+		desc: "<p><i>Autochton cellus</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/7.jpg)",
 		tit: "Hormiga carpintera",
-		desc:
-			"<p><i>Camponotus spp.</i></p>",
-	},{
+		desc: "<p><i>Camponotus spp.</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/8.jpg)",
 		tit: "Escarabajo de la madera",
-		desc:
-			"<p><i>Eleodes spp.</i></p>",
-	},{
+		desc: "<p><i>Eleodes spp.</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/9.jpg)",
 		tit: "Araña",
-		desc:
-			"<p><i>Metepeira sp.</i></p>",
-	},{
+		desc: "<p><i>Metepeira sp.</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/10.jpg)",
 		tit: "Mirador",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/11.jpg)",
 		tit: "Centro Cultural Ambiental",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ecoguardas/12.jpg)",
 		tit: "Museo de Abejas",
-		desc:
-			"<p></p>",
+		desc: "<p></p>",
 	},
 ];
 
@@ -662,42 +660,143 @@ imgEji = [
 	{
 		img: "url(../../../src/imgs/sitios/ejidosX/1.jpg)",
 		tit: "",
-		desc:
-			"<p><i>Venessa cardui</i></p>",
-	},{
+		desc: "<p><i>Venessa cardui</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/2.jpg)",
 		tit: "",
-		desc:
-			"<p><i>Molothrus aeneus</i></p>",
-	},{
+		desc: "<p><i>Molothrus aeneus</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/3.jpg)",
 		tit: "Polilla Esfinge",
-		desc:
-			"<p><i>Xylophanes falco</i></p>",
-	},{
+		desc: "<p><i>Xylophanes falco</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/4.jpeg)",
 		tit: "Oruga de Tepozán",
-		desc:
-			"<p><i>Acronyctodes mexicanaria</i></p>",
-	},{
+		desc: "<p><i>Acronyctodes mexicanaria</i></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/5.jpeg)",
 		tit: "",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/6.jpeg)",
 		tit: "",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/7.jpeg)",
 		tit: "",
-		desc:
-			"<p></p>",
-	},{
+		desc: "<p></p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/ejidosX/8.jpeg)",
 		tit: "",
-		desc:
-			"<p></p>",
+		desc: "<p></p>",
+	},
+];
+
+imgSis = [
+	{
+		img: "url(../../../src/imgs/sitios/sierraS/1.jpg)",
+		tit: "Siempreviva",
+		desc: "<p><i>Sedum praealtum</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/2.jpg)",
+		tit: "Palo Dulce",
+		desc: "<p><i>Eysenhardtia polystachya</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/3.jpg)",
+		tit: "Nopal Chamacuero",
+		desc: "<p><i>Opuntia tormentosa</i></p>"+
+				"<p>(Foto de Wikipedia)</p>"
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/4.jpg)",
+		tit: "Membrillo Cimarrón",
+		desc: "<p><i>Condalia mexicana</i></p>"+
+				"<p>(Foto de Wikipedia)</p>"
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/5.jpg)",
+		tit: "Culebra Listonada",
+		desc: "<p><i>Thamnophis eques</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/6.jpg)",
+		tit: "Vibora de Cascabel Cola Negra",
+		desc: "<p><i>Crotalus molossus</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/7.jpg)",
+		tit: "Falso Camaleón",
+		desc: "<p><i>Phrynosoma orbiculare</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/8.jpg)",
+		tit: "Falso Escorpión",
+		desc: "<p><i>Barisia imbricata</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/9.jpg)",
+		tit: "Culebra Parchada",
+		desc: "<p><i>Salvadora bairdi</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/10.jpg)",
+		tit: "Lagartija Escamosa de Collar",
+		desc: "<p><i>Sceloporus grammicus</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/11.jpeg)",
+		tit: "Parque Zacatepec",
+		desc: "<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/12.jpeg)",
+		tit: "Parque Zacatepec",
+		desc: "<p>Mirador</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/13.jpeg)",
+		tit: "Parque Zacatepec",
+		desc: "<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/14.jpg)",
+		tit: "Parque Zapote",
+		desc: "<p>Acceso</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/15.jpg)",
+		tit: "Parque Zapote",
+		desc: "<p>Palapa</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/16.jpg)",
+		tit: "Parque Zapote",
+		desc: "<p>Área de Juegos Infantiles</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/17.jpg)",
+		tit: "Parque Zapote",
+		desc: "<p>Ejercitadores</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/18.jpg)",
+		tit: "Parque Zapote",
+		desc: "<p>Ruta para Correr</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/19.jpg)",
+		tit: "Parque Zapote",
+		desc: "<p>Ruta para Correr</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/20.jpeg)",
+		tit: "Parque Yecahuizotl",
+		desc: "<p>Pabellón de Polinizadores</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/21.jpeg)",
+		tit: "Parque Yecahuizotl",
+		desc: "<p>Carpa Geodésica</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/sierraS/22.jpeg)",
+		tit: "Parque Yecahuizotl",
+		desc: "<p>Laberinto de Palo Loco</p>",
 	},
 ];

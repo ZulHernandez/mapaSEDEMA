@@ -47,6 +47,11 @@ function fireSwaltar(pre, num) {
 			tit = imgEji[num].tit;
 			desc = imgEji[num].desc;
 			break;
+		case "Sis":
+			img = imgSis[num].img;
+			tit = imgSis[num].tit;
+			desc = imgSis[num].desc;
+			break;
 		default:
 			break;
 	}
@@ -95,6 +100,15 @@ function cambiaText(pre, num) {
 			} else {
 				caja.innerHTML =
 					"El 27 de noviembre de 1917 el Área Natural Protegida Desierto de los Leones es decretada bajo la categoría de Parque Nacional.";
+			}
+			break;
+		case "Sis":
+			if (num == 1) {
+				caja.innerHTML =
+					"El 21 de agosto de 2003 se declara la segunda categoría del  Área Natural Protegida Sierra de Santa Catarina,  como Zona de Conservación Ecológica con una superficie de 220.55 hectáreas.";
+			} else {
+				caja.innerHTML =
+					"El 3 de noviembre de 1994 es publicado en el Diario Oficial de la Federación el decreto presidencial donde Sierra de Santa Catarina es considerada Área Natural Protegida bajo la categoría de Zona Sujeta a Conservación Ecológica con una superficie de 756.82 hectáreas.";
 			}
 			break;
 		default:

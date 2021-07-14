@@ -101,7 +101,7 @@
                             <a href="assets/pages/sitios/ecoguardas.php" target="_self"><li class="anpName">Ecoguardas</li></a>
                             <a href="assets/pages/sitios/ejidosX.php" target="_self"><li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li></a>
                             <li class="anpName">Tempiluli</li>
-                            <li class="anpName">Sierra de Santa Catarina</li>
+                            <a href="assets/pages/sitios/sierraS.php" target="_self"><li class="anpName">Sierra de Santa Catarina</li></a>
                             <li class="anpName">Cerro de la Estrella</li>
                         </b>
                     </ol>

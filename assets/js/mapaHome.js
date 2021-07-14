@@ -148,7 +148,7 @@ function mousePressed() {
                                             } else {
                                                 d = dist(mouseX, mouseY, w / 6.5, w / 5.7);
                                                 if (d <= width / 24) {
-                                                    alert("12");
+                                                    window.open('assets/pages/sitios/ejidosX.php','_self');
                                                 } else {
                                                     d = dist(mouseX, mouseY, w / 5.3, w / 5.6);
                                                     if (d <= width / 24) {
@@ -156,7 +156,7 @@ function mousePressed() {
                                                     } else {
                                                         d = dist(mouseX, mouseY, w / 5.7, w / 6.5);
                                                         if (d <= width / 24) {
-                                                            alert("14");
+                                                            window.open('assets/pages/sitios/sierraS.php','_self')
                                                         } else {
                                                             d = dist(mouseX, mouseY, w / 6.2, w / 8);
                                                             if (d <= width / 24) {

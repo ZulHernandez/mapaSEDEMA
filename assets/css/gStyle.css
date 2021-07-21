@@ -192,6 +192,8 @@ a:hover {
 .cdmx-texture {
     padding-top: 100px;
     width: 100%;
+    opacity 0.2;
+
 }
 
 .img-pet {
@@ -200,7 +202,7 @@ a:hover {
 }
 
 .img-pet:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
 }
 
 .img-poli{
@@ -252,10 +254,9 @@ a:hover {
 
 .div-map {
     background-image: url(../../src/imgs/fondoPasto.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-repeat: repeat-x;
+    background-size: 25%;
     background-position: bottom;
-    background-color: rgba(137, 141, 141, 0.1);
     padding: 180px 0px;
 }
 
@@ -331,4 +332,26 @@ a:hover {
 .tab-head{
     background-color: #0f4c42;
     color: white;
+}
+
+
+@media screen and (orientation:  portrait) {
+
+    .display-no {
+        display: none;
+    }
+
+    .hero{
+        padding: 90px 0px;
+        height: 60vw;
+    }
+
+    h2 {
+        font-size: 4vw;;
+    }
+
+    body{
+        font-size: 2vw;
+    }
+
 }

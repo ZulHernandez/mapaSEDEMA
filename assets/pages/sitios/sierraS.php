@@ -41,7 +41,7 @@
                         <a class="nav-link" href="#">GALERÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="#">CONTACTO</a>   
                     </li>
                 </ul>
             </div>

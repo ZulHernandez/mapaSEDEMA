@@ -17,7 +17,12 @@ function preload() {
 }
 
 function setup() {
-    var myCanva = createCanvas(w / 1.4 * 0.8, w / 1.64 * 0.8);
+    var myCanva
+    if (w>720){
+        myCanva = createCanvas(w / 1.4 * 0.8, w / 1.64 * 0.8);
+    }else{
+        myCanva = createCanvas(w / 1.4 * 10, w / 1.64 * 10);
+    }
     myCanva.parent("mapa");
     frameRate(60);
     textAlign(CENTER);
@@ -198,18 +203,6 @@ function draw() {
         cursor(ARROW);
     }
 }
-
-window.addEventListener("wheel", function (e) {
-    if (e.shiftKey) {
-        if (e.deltaY > 0) {
-            sf *= 1.05;
-            cursor('../../../src/imgs/zoommas.png');
-        } else {
-            sf *= 0.95;
-            cursor('../../../src/imgs/zoommen.png');
-        }
-    }
-});
 
 function mousePressed() {
     let d;

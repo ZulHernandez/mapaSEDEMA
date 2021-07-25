@@ -52,6 +52,11 @@ function fireSwaltar(pre, num) {
 			tit = imgSis[num].tit;
 			desc = imgSis[num].desc;
 			break;
+		case "Cer":
+			img = imgCer[num].img;
+			tit = imgCer[num].tit;
+			desc = imgCer[num].desc;
+			break;
 		default:
 			break;
 	}
@@ -109,6 +114,15 @@ function cambiaText(pre, num) {
 			} else {
 				caja.innerHTML =
 					"El 3 de noviembre de 1994 es publicado en el Diario Oficial de la Federación el decreto presidencial donde Sierra de Santa Catarina es considerada Área Natural Protegida bajo la categoría de Zona Sujeta a Conservación Ecológica con una superficie de 756.82 hectáreas.";
+			}
+			break;
+		case "Cer":
+			if (num == 1) {
+				caja.innerHTML =
+					"El 30 de mayo de 1991 se publicó en el Diario Oficial de la Federación, el Decreto por el que se establece  a Cerro de la Estrella  como Zona Sujeta a Conservación Ecológica.";
+			} else {
+				caja.innerHTML =
+					"El 24 de agosto de 1938 se publicó en el Diario Oficial de la Federación, el Decreto por el que se establece a Cerro de la Estrella como Parque Nacional.";
 			}
 			break;
 		default:

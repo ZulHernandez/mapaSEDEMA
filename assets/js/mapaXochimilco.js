@@ -18,7 +18,7 @@ function preload() {
 
 function setup() {
     var myCanva
-    if (w>720){
+    if (w<=h){
         myCanva = createCanvas(w / 1.4 * 0.8, w / 1.64 * 0.8);
     }else{
         myCanva = createCanvas(w / 1.4 * 10, w / 1.64 * 10);

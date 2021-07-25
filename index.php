@@ -102,7 +102,7 @@
                             <a href="assets/pages/sitios/ejidosX.php" target="_self"><li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li></a>
                             <li class="anpName">Tempiluli</li>
                             <a href="assets/pages/sitios/sierraS.php" target="_self"><li class="anpName">Sierra de Santa Catarina</li></a>
-                            <li class="anpName">Cerro de la Estrella</li>
+                            <a href="assets/pages/sitios/cerroE.php" target="_self"><li class="anpName">Cerro de la Estrella</li></a>
                         </b>
                     </ol>
                 </div>

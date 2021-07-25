@@ -800,3 +800,64 @@ imgSis = [
 		desc: "<p>Laberinto de Palo Loco</p>",
 	},
 ];
+
+imgCer = [
+	{
+		img: "url(../../../src/imgs/sitios/cerroE/1.jpg)",
+		tit: "Uña de Gato",
+		desc: "<p><i>Mimosa aculeaticarpa</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/2.jpg)",
+		tit: "Yuca",
+		desc: "<p><i>Yucca filifera</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/3.jpg)",
+		tit: "Mamilaria",
+		desc: "<p><i>Mammillaria spp.</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/4.jpg)",
+		tit: "Casahuate",
+		desc: "<p><i>Ipomoea murucoides</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/5.jpg)",
+		tit: "Gorrión Pálido",
+		desc: "<p><i>Spizella pallida</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/6.jpg)",
+		tit: "Picogordo Tigrillo",
+		desc: "<p><i>Pheucticus melanocephalus</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/7.jpg)",
+		tit: "Carbonero Mexicano",
+		desc: "<p><i>Poecile sclateri</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/8.jpg)",
+		tit: "Golondrina Común",
+		desc: "<p><i>Hirundo rustica</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/9.jpg)",
+		tit: "Tirano Gritión",
+		desc: "<p><i>Tyrannus vociferans</i></p>"+
+				"<p>(Foto de Wikipedia)</p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/10.jpg)",
+		tit: "Sendero",
+		desc: "<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/11.jpg)",
+		tit: "Mirador",
+		desc: "<p></p>",
+	},{
+		img: "url(../../../src/imgs/sitios/cerroE/12.jpg)",
+		tit: "Sendero",
+		desc: "<p></p>",
+	},
+];

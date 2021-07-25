@@ -160,7 +160,7 @@ function mousePressed() {
                                                         } else {
                                                             d = dist(mouseX, mouseY, w / 6.2, w / 8);
                                                             if (d <= width / 24) {
-                                                                alert("15");
+                                                                window.open('assets/pages/sitios/cerroE.php','_self')
                                                             }
                                                         }
                                                     }

@@ -14,6 +14,7 @@
 </head>
 
 <!--onLoad function only accept 4 values: rojo, naranja, amarillo, verde-->
+
 <body onload="colorHome('amarillo');">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f4c42;">
         <div class="container">
@@ -66,9 +67,11 @@
             </div>
         </div>
     </div>
-    <a href="assets/pages/covid.php" style="text-decoration: none;"><div id="divCov" class="div-cov text-center text-source" onmouseover="covHover()" onmouseout="covOut()">
-        COVID-19 y tu visita a las Áreas Naturales Protegidas de la Ciudad de México
-    </div></a>
+    <a href="assets/pages/covid.php" style="text-decoration: none;">
+        <div id="divCov" class="div-cov text-center text-source" onmouseover="covHover()" onmouseout="covOut()">
+            COVID-19 y tu visita a las Áreas Naturales Protegidas de la Ciudad de México
+        </div>
+    </a>
     <div class="space"></div>
     <div class="container container-body">
         <h1>ÁREAS NATURALES PROTEGIDAS</h1>
@@ -88,21 +91,45 @@
                 <div class="col-sm-5">
                     <ol type="1" style="padding-left: 50px;">
                         <b>
-                            <a href="assets/pages/sitios/armella.php" target="_self"><li class="anpName">La Armella</li></a>
-                            <a href="assets/pages/sitios/sierraG.php" target="_self"><li class="anpName">Sierra de Guadalupe</li></a>
-                            <a href="assets/pages/sitios/bosqueL.php" target="_self"><li class="anpName">Bosque de las Lomas</li></a>
-                            <a href="assets/pages/sitios/loma.php" target="_self"><li class="anpName">La Loma</li></a>
-                            <a href="assets/pages/sitios/insurgente.php" target="_self"><li class="anpName">Insurgente Miguel Hidalgo y Costilla</></a>
-                            <a href="assets/pages/sitios/desierto.php" target="_self"><li class="anpName">Desierto de los leones</li></a>
+                            <a href="assets/pages/sitios/armella.php" target="_self">
+                                <li class="anpName">La Armella</li>
+                            </a>
+                            <a href="assets/pages/sitios/sierraG.php" target="_self">
+                                <li class="anpName">Sierra de Guadalupe</li>
+                            </a>
+                            <a href="assets/pages/sitios/bosqueL.php" target="_self">
+                                <li class="anpName">Bosque de las Lomas</li>
+                            </a>
+                            <a href="assets/pages/sitios/loma.php" target="_self">
+                                <li class="anpName">La Loma</li>
+                            </a>
+                            <a href="assets/pages/sitios/insurgente.php" target="_self">
+                                <li class="anpName">Insurgente Miguel Hidalgo y Costilla</>
+                            </a>
+                            <a href="assets/pages/sitios/desierto.php" target="_self">
+                                <li class="anpName">Desierto de los leones</li>
+                            </a>
                             <li class="anpName">San Bernabe Ocotepec</li>
                             <li class="anpName">San Nicolás Totolapan</li>
-                            <a href="assets/pages/sitios/pCDMX.php" target="_self"><li class="anpName">Parque Ecológico de la Ciudad de México</li></a>
-                            <a href="assets/pages/sitios/bosqueT.php" target="_self"><li class="anpName">Bosque de Tlalpan</li></a>
-                            <a href="assets/pages/sitios/ecoguardas.php" target="_self"><li class="anpName">Ecoguardas</li></a>
-                            <a href="assets/pages/sitios/ejidosX.php" target="_self"><li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li></a>
+                            <a href="assets/pages/sitios/pCDMX.php" target="_self">
+                                <li class="anpName">Parque Ecológico de la Ciudad de México</li>
+                            </a>
+                            <a href="assets/pages/sitios/bosqueT.php" target="_self">
+                                <li class="anpName">Bosque de Tlalpan</li>
+                            </a>
+                            <a href="assets/pages/sitios/ecoguardas.php" target="_self">
+                                <li class="anpName">Ecoguardas</li>
+                            </a>
+                            <a href="assets/pages/sitios/ejidosX.php" target="_self">
+                                <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>
+                            </a>
                             <li class="anpName">Tempiluli</li>
-                            <a href="assets/pages/sitios/sierraS.php" target="_self"><li class="anpName">Sierra de Santa Catarina</li></a>
-                            <a href="assets/pages/sitios/cerroE.php" target="_self"><li class="anpName">Cerro de la Estrella</li></a>
+                            <a href="assets/pages/sitios/sierraS.php" target="_self">
+                                <li class="anpName">Sierra de Santa Catarina</li>
+                            </a>
+                            <a href="assets/pages/sitios/cerroE.php" target="_self">
+                                <li class="anpName">Cerro de la Estrella</li>
+                            </a>
                         </b>
                     </ol>
                 </div>
@@ -113,9 +140,11 @@
             <div class="row inv-card">
                 <div class="col-lg-7"></div>
                 <div class="col-lg col-green">
-                    <div class="col-text">
-                        <p class="text-inv-card">¡Ayúdanos a <b style="color: white; font-size: 3vw; margin-bottom: 50px;">CONSERVAR!</b></p>
-                    </div>
+                    <a href="assets/pages/ayudaC.php" style="color: white;">
+                        <div class="col-text">
+                            <p class="text-inv-card">¡Ayúdanos a <b style="color: white; font-size: 3vw; margin-bottom: 50px;">CONSERVAR!</b></p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -129,10 +158,12 @@
         </div>
         <div class="row">
             <div class="col-lg col-green">
-                <div class="col-text" style="padding-top: 0px;">
-                    <br />
-                    <p class="text-inv-card" style="text-align: center;">Canal Nacional</p>
-                </div>
+                <a href="assets/pages/canalN.php" style="color: white;">
+                    <div class="col-text" style="padding-top: 0px;">
+                        <br />
+                        <p class="text-inv-card" style="text-align: center;">Canal Nacional</p>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-1" style="padding: 0px;"></div>
             <div class="col-green col-lg">

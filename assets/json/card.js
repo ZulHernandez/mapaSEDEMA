@@ -703,98 +703,110 @@ imgSis = [
 	{
 		img: "url(../../../src/imgs/sitios/sierraS/1.jpg)",
 		tit: "Siempreviva",
-		desc: "<p><i>Sedum praealtum</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Sedum praealtum</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/2.jpg)",
 		tit: "Palo Dulce",
-		desc: "<p><i>Eysenhardtia polystachya</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc:
+			"<p><i>Eysenhardtia polystachya</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/3.jpg)",
 		tit: "Nopal Chamacuero",
-		desc: "<p><i>Opuntia tormentosa</i></p>"+
-				"<p>(Foto de Wikipedia)</p>"
-	},{
+		desc: "<p><i>Opuntia tormentosa</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/4.jpg)",
 		tit: "Membrillo Cimarrón",
-		desc: "<p><i>Condalia mexicana</i></p>"+
-				"<p>(Foto de Wikipedia)</p>"
-	},{
+		desc: "<p><i>Condalia mexicana</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/5.jpg)",
 		tit: "Culebra Listonada",
-		desc: "<p><i>Thamnophis eques</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Thamnophis eques</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/6.jpg)",
 		tit: "Vibora de Cascabel Cola Negra",
-		desc: "<p><i>Crotalus molossus</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Crotalus molossus</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/7.jpg)",
 		tit: "Falso Camaleón",
-		desc: "<p><i>Phrynosoma orbiculare</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Phrynosoma orbiculare</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/8.jpg)",
 		tit: "Falso Escorpión",
-		desc: "<p><i>Barisia imbricata</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Barisia imbricata</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/9.jpg)",
 		tit: "Culebra Parchada",
-		desc: "<p><i>Salvadora bairdi</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Salvadora bairdi</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/10.jpg)",
 		tit: "Lagartija Escamosa de Collar",
-		desc: "<p><i>Sceloporus grammicus</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Sceloporus grammicus</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/11.jpeg)",
 		tit: "Parque Zacatepec",
 		desc: "<p></p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/12.jpeg)",
 		tit: "Parque Zacatepec",
 		desc: "<p>Mirador</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/13.jpeg)",
 		tit: "Parque Zacatepec",
 		desc: "<p></p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/14.jpg)",
 		tit: "Parque Zapote",
 		desc: "<p>Acceso</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/15.jpg)",
 		tit: "Parque Zapote",
 		desc: "<p>Palapa</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/16.jpg)",
 		tit: "Parque Zapote",
 		desc: "<p>Área de Juegos Infantiles</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/17.jpg)",
 		tit: "Parque Zapote",
 		desc: "<p>Ejercitadores</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/18.jpg)",
 		tit: "Parque Zapote",
 		desc: "<p>Ruta para Correr</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/19.jpg)",
 		tit: "Parque Zapote",
 		desc: "<p>Ruta para Correr</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/20.jpeg)",
 		tit: "Parque Yecahuizotl",
 		desc: "<p>Pabellón de Polinizadores</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/21.jpeg)",
 		tit: "Parque Yecahuizotl",
 		desc: "<p>Carpa Geodésica</p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/sierraS/22.jpeg)",
 		tit: "Parque Yecahuizotl",
 		desc: "<p>Laberinto de Palo Loco</p>",
@@ -805,59 +817,85 @@ imgCer = [
 	{
 		img: "url(../../../src/imgs/sitios/cerroE/1.jpg)",
 		tit: "Uña de Gato",
-		desc: "<p><i>Mimosa aculeaticarpa</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Mimosa aculeaticarpa</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/2.jpg)",
 		tit: "Yuca",
-		desc: "<p><i>Yucca filifera</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Yucca filifera</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/3.jpg)",
 		tit: "Mamilaria",
-		desc: "<p><i>Mammillaria spp.</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Mammillaria spp.</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/4.jpg)",
 		tit: "Casahuate",
-		desc: "<p><i>Ipomoea murucoides</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Ipomoea murucoides</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/5.jpg)",
 		tit: "Gorrión Pálido",
-		desc: "<p><i>Spizella pallida</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Spizella pallida</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/6.jpg)",
 		tit: "Picogordo Tigrillo",
-		desc: "<p><i>Pheucticus melanocephalus</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc:
+			"<p><i>Pheucticus melanocephalus</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/7.jpg)",
 		tit: "Carbonero Mexicano",
-		desc: "<p><i>Poecile sclateri</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Poecile sclateri</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/8.jpg)",
 		tit: "Golondrina Común",
-		desc: "<p><i>Hirundo rustica</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Hirundo rustica</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/9.jpg)",
 		tit: "Tirano Gritión",
-		desc: "<p><i>Tyrannus vociferans</i></p>"+
-				"<p>(Foto de Wikipedia)</p>",
-	},{
+		desc: "<p><i>Tyrannus vociferans</i></p>" + "<p>(Foto de Wikipedia)</p>",
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/10.jpg)",
 		tit: "Sendero",
 		desc: "<p></p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/11.jpg)",
 		tit: "Mirador",
 		desc: "<p></p>",
-	},{
+	},
+	{
 		img: "url(../../../src/imgs/sitios/cerroE/12.jpg)",
 		tit: "Sendero",
 		desc: "<p></p>",
+	},
+];
+
+imgAyu = [
+	{
+		img: "url(../../../src/imgs/ayu/1.jpg)",
+		tit: "Reforestación",
+		desc: "<p>Grupo de voluntarios realizando reforestación en el Área Natural Protegida Bosque de Tlalpan.</p>",
+	},
+	{
+		img: "url(../../../src/imgs/ayu/2.jpg)",
+		tit: "Mantenimiento",
+		desc: "<p>Grupo de voluntarios realizando mantenimiento en áreas recreativas en Bosque de Tlalpan. .</p>",
+	},
+	{
+		img: "url(../../../src/imgs/ayu/3.jpg)",
+		tit: "Mantenimiento",
+		desc: "<p>Volunarios realizando mantemiento de áreas recreativas en el Área Natural Protegida Bosque de Tlalpan. </p>",
+	},
+	{
+		img: "url(../../../src/imgs/ayu/4.jpg)",
+		tit: "Recorridos",
+		desc: "<p>Grupo de voluntarios realizan recorrido para conocer el Área Natural Protegida Sierra de Guadalupe y tomar registro de las especies de aves que habitan. </p>",
 	},
 ];

@@ -117,6 +117,7 @@ a:hover {
 
 .sub-sub {
     font-size: 1.8vw;
+    text-transform: uppercase;
 }
 
 .text-para {
@@ -137,6 +138,40 @@ a:hover {
 .img-icon-txt{
     font-size: 0.9vw;
 }
+
+.input-text{
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    color: #707070;
+}
+
+.input-text:focus{
+    outline: none;
+    border-color: red;
+    border-bottom: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #707070;
+}
+
+.boton{
+    padding: 10px;
+    width: 100%;
+    color: #707070;
+    transition-duration: 0.25s;
+    border-color: transparent;
+}
+
+.boton:hover{
+    background-color: #0f4c42;
+    color: white;
+}
+
+
 
 /*SWALS----------------------------------------------------------------------------------------------------------*/
 .swal2-content {
@@ -209,23 +244,28 @@ a:hover {
     width: 80%;
 }
 
-.hero,.grid-img-3,.grid-img-2{
+.hero,.grid-img-3,.grid-img-2,.grid-img-1{
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
     background-attachment: initial;
-    height: 25vw;
+    height: 24vw;
 }
 
 .grid-img-3{
-    height: 25vw;
+    height: 24vw;
 }
 
 .grid-img-2{
     height: 16vw;
 }
 
-.grid-img-2,.grid-img-3{
+.grid-img-1{
+    height: 8vw;
+}
+
+
+.grid-img-1,.grid-img-2,.grid-img-3{
     border-style: solid;
     border-width: 5px;
     border-color: white;
@@ -235,7 +275,7 @@ a:hover {
     transition: all 1s;
 }
 
-.grid-img-2:hover,.grid-img-3:hover{
+.grid-img-1:hover,.grid-img-2:hover,.grid-img-3:hover{
     cursor: pointer;
     background-blend-mode: normal;    
 }

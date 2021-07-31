@@ -96,13 +96,6 @@ function drawcircle(x, y, nom, est) {
     text(nom, x, y + width / 80);
 }
 
-
-
-
-
-
-
-
 function fireSwal(num) {
     Swal.fire({
         template: '#my-template',

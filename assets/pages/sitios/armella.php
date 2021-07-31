@@ -52,7 +52,6 @@
         <p class="text-goth sub-sub">ZONA DE CONSERVACIÓN ECOLÓGICA</p>
         <br />
         <p class="text-para">La Amella se ubica en el extremo Norte de la alcaldía Gustavo A. Madero, colinda con el Estado de México y es la continuidad del Área Natural Protegida Sierra de Guadalupe, cuya superficie de <b>198.38 hectáreas</b> se divide en dos polígonos.</p>
-        <br />
         <p class="text-para">Su decreto en 2006 tiene el objetivo de ampliar espacios para la conservación de biodiversidad al norte de la Ciudad de México, debido a la gama amplia de servicios ecosistémicos que ofrece junto con Sierra de Guadalupe, ya que, son el habitad de especies representativas de la Cuenca de México, alimentan a los mantos acuíferos, ayudan a mitigar el cambio climático, generan oxigeno, evitan la erosión de suelo natural, ofrecen una belleza escénica y brindan espacios de espaciamiento para la comunidad.</p>
         <div class="space"></div>
         <div class="container container-element">

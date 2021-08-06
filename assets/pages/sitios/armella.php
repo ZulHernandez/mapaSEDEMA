@@ -10,8 +10,8 @@
     <script src="../../dist/js/p5.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
     <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
-    <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="stylesheet" href="../../css/sitios/armellaStyle.css">
+    <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
@@ -47,7 +47,7 @@
     </nav>
     <div class="container-fluid hero" style="padding: 0px;"></div>
     <div class="space"></div>
-    <div class="container container-body">
+    <div class="container-lg container-fluid container-body">
         <h1 class="text-goth">LA ARMELLA</h1>
         <p class="text-goth sub-sub">ZONA DE CONSERVACIÓN ECOLÓGICA</p>
         <br />
@@ -113,13 +113,13 @@
                     <h4 class="img-icon-txt">¡Ayudanos a conservar!</h4>
                 </center>
             </div>
-            <div class="col-3"></div>
+            <div class="col"></div>
             <div class="col-2">
                 <center>
                     <img class="img-icon" src="../../../src/imgs/iconos/mapa.svg">
                     <br /><br />
                     <a href="">
-                        <h4 class="img-icon-txt" style="text-align: center;">Mapa para tu visita</h4>
+                        <h4 class="img-icon-txt">Mapa para tu visita</h4>
                     </a>
                 </center>
             </div>

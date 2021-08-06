@@ -50,3 +50,20 @@
     font-size: 2vw;
     line-height: 2.2vw;
 }
+
+@media screen and (orientation:  portrait) {
+    .text-dia{
+        font-size: 1.56vw;
+        line-height: 15px;
+    }
+    
+    .text-año{
+        font-size: 6vw;
+        line-height: 30px;
+    }
+    
+    .event-zone{
+        font-size: 2.2vw;
+        line-height: 1.1vw;
+    }
+}

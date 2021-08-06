@@ -6,3 +6,10 @@
     width: 100%;
     height: 60%;
 }
+
+@media screen and (orientation:  portrait) {
+
+    .ytVideo{
+        height: 30%;
+    }
+}

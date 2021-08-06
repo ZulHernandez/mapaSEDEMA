@@ -46,7 +46,7 @@
     <div class="container-fluid hero" style="padding: 0px;">
     </div>
     <div class="space"></div>
-    <div class="container container-body">
+    <div class="container-lg container-fluid container-body">
         <h1>CANAL NACIONAL</h1>
         <br />
         <p class="text-para">Canal Nacional es un cauce artificial a cielo abierto con una longitud aproximada de 12 km ubicado en la Ciudad de México, el cual fue decretado el 3 de mayo de 2012 como <b>Espacio Abierto Monumental del Distrito Federal</b> por su valor ambiental, histórico y sociocultural.</p>

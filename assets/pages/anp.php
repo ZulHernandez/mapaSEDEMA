@@ -45,7 +45,7 @@
     </nav>
     <div class="container-fluid hero" style="padding: 0px;"></div>
     <div class="space"></div>
-    <div class="container container-body">
+    <div class="container-lg container-fluid container-body">
         <h1>¿QUÉ SON LAS ANP?</h1>
         <br />
         <p class="text-para">La sigla <b>ANP</b> es usada para referirse a las <b>Áreas Naturales Protegidas</b>, zonas del territorio nacional cubiertas por ecosistemas originales que no han sido significativamente alteradas por actividades humanas y requieren ser preservadas por su estructura y función para la conservación de biodiversidad y servicios ambientales.</p>
@@ -97,10 +97,12 @@
         <p class="text-para">Las 25 ANP de la ciudad abarcan 21,661.31 hectáreas, representando 14.61 por ciento de la superficie total de la capital a cargo de la Secretaría del Medio Ambiente (SEDEMA) y la Comisión Nacional de Áreas Naturales Protegidas (CONANP), algunas en coordinación entre ambas dependencia y alcaldías.</p>
         <br />
         <div class="row">
-            <div class="col-sm-7">
-                <div id="mapa"></div>
+            <div class="col-lg-7 col-sm-12">
+                <center>
+                    <div id="mapa"></div>
+                </center>
             </div>
-            <div class="col-sm-5">
+            <div class="col-lg-5 col-sm-12">
                 <ol type="1" style="padding-left: 100px;">
                     <b>
                         <span>ANPs administradas por SEDEMA</span>
@@ -116,8 +118,6 @@
                         <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>
                         <li class="anpName">Sierra de Santa Catarina</li>
                         <li class="anpName">Cerro de la Estrella</li>
-
-
                         <li class="anpName">San Bernabe Ocotepec</li>
                         <li class="anpName">San Nicolás Totolapan</li>
                         <li class="anpName">Tempiluli</li>
@@ -669,7 +669,7 @@
         </div>
         <div class="space"></div>
         <h2>Fuentes de Consulta</h2>
-        <br/>
+        <br />
         <ol>
             <li>Dirección General del Sistema de Áreas Naturales Protegidas y Áreas de Valor Ambiental (DGSANPAVA)</li>
             <li>DOF. Diario Oficial de la Federación</li>

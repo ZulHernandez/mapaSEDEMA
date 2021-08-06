@@ -10,8 +10,8 @@
     <script src="../../dist/js/p5.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../assets/json/card.js"></script>
     <script type="text/javascript" src="../../../assets/js/sitios/tarjetas.js"></script>
-    <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="stylesheet" href="../../css/sitios/bosquesLStyle.css">
+    <link rel="stylesheet" href="../../css/gStyle.css">
     <link rel="shortcut icon" href="../../../src/imgs/iconos/icon.svg" type="image/x-icon">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
@@ -49,7 +49,7 @@
     </nav>
     <div class="container-fluid hero" style="padding: 0px;"></div>
     <div class="space"></div>
-    <div class="container container-body">
+    <div class="container-lg container-fluid container-body">
         <h1 class="text-goth">Insurgente Miguel Hidalgo y Costilla</h1>
         <p class="text-goth sub-sub">PARQUE NACIONAL</p>
         <br />

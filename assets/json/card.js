@@ -880,22 +880,12 @@ imgCer = [
 imgAyu = [
 	{
 		img: "url(../../../src/imgs/ayu/1.jpg)",
-		tit: "Reforestación",
-		desc: "<p>Grupo de voluntarios realizando reforestación en el Área Natural Protegida Bosque de Tlalpan.</p>",
+		tit: "",
+		desc: "<p></p>",
 	},
 	{
 		img: "url(../../../src/imgs/ayu/2.jpg)",
-		tit: "Mantenimiento",
-		desc: "<p>Grupo de voluntarios realizando mantenimiento en áreas recreativas en Bosque de Tlalpan. .</p>",
-	},
-	{
-		img: "url(../../../src/imgs/ayu/3.jpg)",
-		tit: "Mantenimiento",
-		desc: "<p>Volunarios realizando mantemiento de áreas recreativas en el Área Natural Protegida Bosque de Tlalpan. </p>",
-	},
-	{
-		img: "url(../../../src/imgs/ayu/4.jpg)",
-		tit: "Recorridos",
-		desc: "<p>Grupo de voluntarios realizan recorrido para conocer el Área Natural Protegida Sierra de Guadalupe y tomar registro de las especies de aves que habitan. </p>",
+		tit: "",
+		desc: "<p></p>",
 	},
 ];

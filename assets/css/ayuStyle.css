@@ -9,5 +9,22 @@
 
 .img-ind:hover {
 	padding: 5px;
-    border-color: #0f4c42;
+	border-color: #0f4c42;
+}
+
+.hero{
+	border-style: solid;
+	border-color: #9F1D41;
+	border-width: 10px;
+	background-image: url(../../src/imgs/ayu/hero.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+@media screen and (orientation: portrait) {
+	.img-ind {
+		width: 10vw;
+		margin-top: 22px;
+	}
 }

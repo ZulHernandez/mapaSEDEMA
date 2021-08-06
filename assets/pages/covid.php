@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="space"></div>
-    <div class="container container-body">
+    <div class="container-lg container-fluid container-body">
         <h1 class="text-goth">INFORMACIÓN IMPORTANTE</h1>
         <p class="text-goth sub-sub">SOBRE TU VISITA A LAS ÁREAS NATURALES PROTEGIDAS</p>
         <br />

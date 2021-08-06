@@ -284,7 +284,6 @@ a:hover {
 
 /*DIVS----------------------------------------------------------------------------------------------------------*/
 .hero {
-    background-image: url(../../src/imgs/fondo.svg);
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
@@ -385,12 +384,36 @@ a:hover {
         height: 60vw;
     }
 
-    h2 {
-        font-size: 4vw;;
+    h1 {
+        font-size: 6vw;
     }
-
-    body{
+    
+    h2 {
+        font-size: 4vw;
+    }
+    
+    h3{
+        font-size: 2vw;
+    }
+    
+    body,.anpName{
         font-size: 2vw;
     }
 
+    .img-ind {
+        width: 15vw;
+        border-width: 9px;
+    }
+
+    .img-icon-txt{
+        font-size: 1.8vw;
+    }
+
+    #col-green {
+        font-size: 2.2vw;
+    }
+
+    .img-foot{
+        font-size: 1.4vw;
+    }
 }

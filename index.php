@@ -73,7 +73,7 @@
         </div>
     </a>
     <div class="space"></div>
-    <div class="container container-body">
+    <div class="container-lg container-fluid container-body">
         <h1>ÁREAS NATURALES PROTEGIDAS</h1>
         <p class="sub-sub">DE LA CIUDAD DE MÉXICO</p>
         <br />
@@ -81,14 +81,16 @@
         <br />
         <p class="text-para">Actualmente, en la ciudad existen 25 Áreas Naturales Protegidas que abarcan 21,047.01 hectáreas. <b>La Secretaría del Medio Ambiente coordina 15 de ellas</b>, algunas en coadministración con la Comisión Nacional de Áreas Naturales Protegidas (CONANP), así como alcaldías de la capital.</p>
         <div class="space"></div>
-        <div class="container container-element">
+        <div class="container-lg container-element">
             <h4 style="text-align: center;">Áreas Naturales Protegidas de la Ciudad de México administradas por SEDEMA</h4>
             <br />
             <div class="row">
-                <div class="col-sm-7">
-                    <div id="mapa"></div>
+                <div class="col-lg-7 col-sm-12">
+                    <center>
+                        <div id="mapa"></div>
+                    </center>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-lg-5 col-sm-12">
                     <ol type="1" style="padding-left: 50px;">
                         <b>
                             <a href="assets/pages/sitios/armella.php" target="_self">
@@ -138,8 +140,8 @@
         </div>
         <div class="inv-card" style="background-image: url(src/imgs/home/ayCon.png);">
             <div class="row inv-card">
-                <div class="col-lg-7"></div>
-                <div class="col-lg col-green">
+                <div id="foto" class="col-7"></div>
+                <div class="col col-green">
                     <a href="assets/pages/ayudaC.php" style="color: white;">
                         <div class="col-text">
                             <p class="text-inv-card">¡Ayúdanos a <b style="color: white; font-size: 3vw; margin-bottom: 50px;">CONSERVAR!</b></p>
@@ -152,12 +154,12 @@
         <h2>Conoce más áreas verdes de la ciudad</h2>
         <br />
         <div class="row">
-            <div class="col-lg" style="padding: 0px;"><img class="img-fluid" src="src/imgs/home/canNac.png"></div>
-            <div class="col-lg-1" style="padding: 0px;"></div>
-            <div class="col-lg" style="padding: 0px;"><img class="img-fluid" src="src/imgs/home/barranca.png"></div>
+            <div class="col" style="padding: 0px;"><img class="img-fluid" src="src/imgs/home/canNac.png"></div>
+            <div class="col-1" style="padding: 0px;"></div>
+            <div class="col" style="padding: 0px;"><img class="img-fluid" src="src/imgs/home/barranca.png"></div>
         </div>
         <div class="row">
-            <div class="col-lg col-green">
+            <div class="col col-green">
                 <a href="assets/pages/canalN.php" style="color: white;">
                     <div class="col-text" style="padding-top: 0px;">
                         <br />
@@ -165,8 +167,8 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-1" style="padding: 0px;"></div>
-            <div class="col-green col-lg">
+            <div class="col-1" style="padding: 0px;"></div>
+            <div class="col-green col">
                 <div class="col-text" style="padding-top: 0px;">
                     <br />
                     <p class="text-inv-card" style="text-align: center; line-height: 1.75vw;">Áreas de Valor Ambiental con Categoría de Barranca</p>

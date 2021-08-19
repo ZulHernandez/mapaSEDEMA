@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #0f4c42;
+    background-color: #410d1c;
     /*color: #999999*/
 }
 
@@ -68,29 +68,29 @@ body {
 h1 {
     font-size: 3vw;
     font-weight: bolder;
-    color: #0f4c42;
+    color: #235B4E;
     text-transform: uppercase;
 }
 
 h2 {
     font-size: 2vw;
     font-weight: bolder;
-    color: #0f4c42;
+    color: #235B4E;
 }
 
 h3{
     font-size: 1vw;
     font-weight: bolder;
-    color: #0f4c42;
+    color: #235B4E;
 }
 
 h4{
-    color: #0f4c42;
+    color: #235B4E;
     font-weight: bold;
 }
 
 b,i {
-    color: #0f4c42;
+    color: #235B4E;
 }
 
 .no-deco:hover {
@@ -112,12 +112,13 @@ a,
 a::after,
 a:hover {
     text-decoration: underline;
-    color: #0f4c42;
+    color: #BC955C;
 }
 
 .sub-sub {
     font-size: 1.8vw;
     text-transform: uppercase;
+    color:  #BC955C;
 }
 
 .text-para {
@@ -167,11 +168,9 @@ a:hover {
 }
 
 .boton:hover{
-    background-color: #0f4c42;
+    background-color: #10312B;
     color: white;
 }
-
-
 
 /*SWALS----------------------------------------------------------------------------------------------------------*/
 .swal2-content {
@@ -189,7 +188,7 @@ a:hover {
 }
 
 .col-white {
-    background-color: white;
+    background-color: white ;
     text-align: left;
     padding: 90px 0px 0px 0px;
 }
@@ -228,7 +227,6 @@ a:hover {
     padding-top: 100px;
     width: 100%;
     opacity 0.2;
-
 }
 
 .img-pet {
@@ -264,14 +262,13 @@ a:hover {
     height: 8vw;
 }
 
-
 .grid-img-1,.grid-img-2,.grid-img-3{
     border-style: solid;
     border-width: 5px;
     border-color: white;
     background-position: left;
     background-blend-mode: luminosity;
-    background-color: #00110e;
+    background-color: #DDc9A3 ;
     transition: all 1s;
 }
 
@@ -280,7 +277,9 @@ a:hover {
     background-blend-mode: normal;    
 }
 
-
+.navbar-brand{
+    width: 300px;
+}
 
 /*DIVS----------------------------------------------------------------------------------------------------------*/
 .hero {
@@ -314,13 +313,13 @@ a:hover {
 
 
 .carousel-indicators .active {
-    background-color: #0f4c42;
+    background-color: #410d1c;
 }
 
 .div-cov {
     color: white;
     font-size: x-large;
-    padding: 20px;
+    padding: 10px;
     transition-duration: 0.5s;
     text-decoration: none;
 }
@@ -349,7 +348,7 @@ a:hover {
 }
 
 .col-green {
-    background-color: #156a5c;
+    background-color: #235B4E;
     color: white;
     text-align: left;
     padding: 0px 0px 0px 0px;
@@ -362,13 +361,13 @@ a:hover {
 }
 
 .col-green:hover {
-    background-color: #0f4c42;
+    background-color: #10312B;
     cursor: pointer;
     text-decoration: underline;
 }
 
 .tab-head{
-    background-color: #0f4c42;
+    background-color: #BC955C;
     color: white;
 }
 

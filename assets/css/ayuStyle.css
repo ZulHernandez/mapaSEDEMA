@@ -14,7 +14,8 @@
 
 .hero{
 	border-style: solid;
-	border-color: #9F1D41;
+	border-color: transparent;
+	border-bottom-color: #BC955C;
 	border-width: 10px;
 	background-image: url(../../src/imgs/ayu/hero.svg);
 	background-size: contain;

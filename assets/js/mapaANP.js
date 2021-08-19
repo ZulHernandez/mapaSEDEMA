@@ -101,7 +101,7 @@ function alcName(name, x, y) {
 function drawcircle(x, y, nom, est) {
 	noStroke();
 	if (est == 0) {
-		fill("#0f4c42");
+		fill("#410d1c");
 	} else {
 		fill("#19806f");
 	}

@@ -328,10 +328,10 @@ function alcName(name, x, y) {
 function drawcircle(x, y, nom, est) {
 	noStroke();
 	if (est == 0) {
-		fill("#0f4c42BF");
+		fill("#BC955CBF");
 		cursor(ARROW);
 	} else {
-		fill("#0f4c42");
+		fill("#BC955C");
 		cursor(HAND);
 	}
 	circle(x, y, width / 12);

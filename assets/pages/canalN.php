@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f4c42;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #410d1c;">
         <div class="container">
             <a class="navbar-brand" href="../../index.php"><img src="../../src/imgs/headIcon.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +83,7 @@
         <iframe class="ytVideo" src="https://www.youtube.com/embed/F5BZ0O1EqQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="space"></div>
-    <nav style="background-color: #0f4c42;">
+    <nav style="background-color: #410d1c;">
         <div class="container">
             <br /><br />
             <div class="row">

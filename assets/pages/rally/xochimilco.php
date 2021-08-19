@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f4c42;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #410d1c;">
         <div class="container">
             <a class="navbar-brand" href="../../../index.php"><img src="../../../src/imgs/headIcon.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,26 +64,26 @@
         </div>
     </div>
     <template id="my-template">
-        <swal-html>
-            <div class="place-card" id="c-img">
-                <div class="row text-front">
-                    <div class="col-lg-7"></div>
-                    <div class="col-lg col-white">
-                        <div class="col-text" style="padding-top: 0px;">
-                            <h2 class="text-title" id="c-tit"></h2><br />
-                            <p class="text-normal" id="c-desc"></p>
+            <swal-html>
+                <div class="place-card" id="c-img">
+                    <div class="row text-front">
+                        <div class="col-lg-8" style="height: 80vh; background-position: top;"></div>
+                        <div class="col-lg col-white" style="padding-bottom: 90px;">
+                            <div class="col-text" style="padding-top: 0px;">
+                                <h2 class="text-title" id="c-tit"></h2><br />
+                                <p class="text-normal" id="c-desc"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </swal-html>
-    </template>
+            </swal-html>
+        </template>
     <div class="container-fluid div-map">
         <center>
             <div id="mapa"></div>
         </center>
     </div>
-    <nav style="background-color: #0f4c42;">
+    <nav style="background-color: #410d1c;">
         <div class="container">
             <br /><br />
             <div class="row">
@@ -122,5 +122,4 @@
         </div>
     </nav>
 </body>
-
 </html>

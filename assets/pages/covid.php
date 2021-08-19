@@ -15,8 +15,8 @@
 </head>
 
 <!--onLoad function only accept 4 values: rojo, naranja, amarillo, verde-->
-<body onload="color('amarillo');">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f4c42;">
+<body onload="color('naranja');">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #410d1c;">
         <div class="container">
             <a class="navbar-brand" href="../../index.php"><img src="../../src/imgs/headIcon.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -198,7 +198,7 @@
         </div>
         <div class="space"></div>
     </div>
-    <nav style="background-color: #0f4c42;">
+    <nav style="background-color: #410d1c;">
         <div class="container">
             <br /><br />
             <div class="row">

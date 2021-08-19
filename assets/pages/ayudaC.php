@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f4c42;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #410d1c;">
         <div class="container">
             <a class="navbar-brand" href="../../index.php"><img src="../../src/imgs/headIcon.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,18 +76,18 @@
                 <div class="col-sm-9">
                     <br />
                     <p class="text-para">Respeta los horarios de visita.</p><br /><br /><br />
-                    <p class="text-para">Utilizas únicamente los caminos señalados.</p><br /><br />
-                    <p class="text-para">Eres un tutor responsable y no llevas a tu animal de compañía (perros, gatos, etc. ).</p><br /><br /><br />
-                    <p class="text-para">Cuidas las áreas comunes y no tiras ni generas residuos.</p><br /><br /><br />
-                    <p class="text-para">Conservas las flores, sin arrancarlas o arrancar su semilla.</p><br /><br />
-                    <p class="text-para">Respeta a la fauna silvestre y no la alimentas o molestas.</p><br /><br /><br />
-                    <p class="text-para">Respeta a los árboles y no cuelgas cuerdas, mochilas o te subes en ellos.</p><br /><br /><br />
-                    <p class="text-para">Evitas llevar o jugar con platos voladores o cualquier tipo de pelota.</p><br /><br />
-                    <p class="text-para">Sólo usas la bicicleta en las vías destinadas para el mismo fin (Sólo Parque Ecológico de la Ciudad de México y el Parque Ecológico de Xochimilco cuentan con ciclovía).</p><br /><br />
-                    <p class="text-para">Evitas el uso de papalotes.</p><br /><br />
-                    <p class="text-para">Disfrutas de la naturaleza y sus sonidos, y si vas a escuchar música utilizas audífonos.</p><br /><br /><br />
-                    <p class="text-para">Tomas fotografía sin flash, ya que la luz desorienta a la fauna silvestre.</p><br /><br /><br />
-                    <p class="text-para">Ayudas a evitar incendios forestales al no fumar o encender fogatas.</p>
+                    <p class="text-para">Utiliza únicamente los caminos señalados.</p><br /><br />
+                    <p class="text-para">Se un tutor responsable y no lleva a tu animal de compañía (perros, gatos, etc. ).</p><br /><br /><br />
+                    <p class="text-para">Cuida las áreas comunes y no tires ni generes residuos.</p><br /><br /><br />
+                    <p class="text-para">Conserva las flores, sin arrancarlas o arrancar su semilla.</p><br /><br />
+                    <p class="text-para">Respeta a la fauna silvestre y no la alimentes o molestes.</p><br /><br /><br />
+                    <p class="text-para">Respeta a los árboles y no cuelgues cuerdas, mochilas ni te subas en ellos.</p><br /><br /><br />
+                    <p class="text-para">Evita llevar o jugar con platos voladores o cualquier tipo de pelota.</p><br /><br />
+                    <p class="text-para">Sólo usa la bicicleta en las vías destinadas para el mismo fin (Sólo Parque Ecológico de la Ciudad de México y el Parque Ecológico de Xochimilco cuentan con ciclovía).</p><br /><br />
+                    <p class="text-para">Evita el uso de papalotes.</p><br /><br />
+                    <p class="text-para">Disfruta de la naturaleza y sus sonidos, y si vas a escuchar música utiliza audífonos.</p><br /><br /><br />
+                    <p class="text-para">Toma fotografías sin flash, ya que la luz desorienta a la fauna silvestre.</p><br /><br /><br />
+                    <p class="text-para">Ayuda a evitar incendios forestales al no fumar ni encender fogatas.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@
         </form>
     </div>
     <div class="space"></div>
-    <nav style="background-color: #0f4c42;">
+    <nav style="background-color: #410d1c;">
         <div class="container">
             <br /><br />
             <div class="row">

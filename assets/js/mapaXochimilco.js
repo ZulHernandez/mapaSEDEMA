@@ -18,11 +18,11 @@ function preload() {
 
 function setup() {
     var myCanva
-    if (w<=h){
+    //if (w<=h){
         myCanva = createCanvas(w / 1.4 * 0.8, w / 1.64 * 0.8);
-    }else{
+    /*}else{
         myCanva = createCanvas(w / 1.4 * 10, w / 1.64 * 10);
-    }
+    }*/
     myCanva.parent("mapa");
     frameRate(60);
     textAlign(CENTER);

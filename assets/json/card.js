@@ -315,7 +315,7 @@ data = [
 	},
 	{
 		img: "url(../../../src/imgs/mapa/PEX3.jpg)",
-		tit: "PEX en la actulidad",
+		tit: "PEX en la actualidad",
 		desc:
 			"<p>Actualmente, el PEX es un hermoso lugar conformado por canales, lagos y ciénegas, los cuales son refugio de  fauna silvestre.</p>" +
 			"<p>Cuenta con zonas recreativas para que la comunidad pueda conocer, disfrutar y conservar la biodiversidad representativa de la Ciudad de México, y seguir valorando las tradiciones de Xochimilco.</p>" +
@@ -351,7 +351,7 @@ data = [
 		desc:
 			"<p>Les contaré lo que mi amiga, Araceli Peralta Flores, investigadora del INAH y Cronista de Xochimilco me platicó:</p>" +
 			"<p>Los xochimilcas, primera tribu nahuatlaca que salió del mítico Chicomoztoc hacia la Cuenca de México, se asentaron en la zona cerril, donde está el sitio arqueológico de Cuahilama.</p>" +
-			"<p>Posteriormente, se trasladaron al islote de Tlilan en el centro de Xochimilco hasta llegar a la serranía del Ajusco, valles altos de Morelos y antiguos señoríos de Mexicaltzingo, Culhuacán, Cuitláhuac, Chalco, Coyoacán y Cuahunáhuac.</p>" +
+			"<p>Posteriormente, se trasladaron al islote de Tlilan en el centro de Xochimilco hasta llegar a la serranía del Ajusco, valles altos de Morelos y antiguos señoríos de Mexicaltzingo, Culhuacán, Cuitláhuac, Chalco, Coyoacán y Cuauhnáhuac.</p>" +
 			"<p>Su principal actividad económica fue la agricultura en la zona chinampera y las terrazas de la zona cerril, donde se obtenía una alta y variada producción de maíz, frijol, calabaza, chile, chayote, quelites, jitomate, nopales, plantas medicinales, etc.</p>" +
 			'<a href="../../../src/docs/actividadesPex/6. PEX Actividad.pdf" target="_blank"><b>Reto 6</b></a></p>',
 	},
@@ -359,7 +359,7 @@ data = [
 		img: "url(../../../src/imgs/mapa/PEX7.jpg)",
 		tit: "Chinampas",
 		desc:
-			"<p>Continuando con la historia relatada por Araceli Peralta: el humedal de Xochimilco posee uno de los sistemas de cultivo únicos en el mundo que produce todos el año, llamado chinampa.</p>" +
+			"<p>Continuando con la historia relatada por Araceli Peralta: el humedal de Xochimilco posee uno de los sistemas de cultivo únicos en el mundo que produce todo el año, llamado chinampa.</p>" +
 			'<div class="popover__wrapper">' +
 			'<p>La <b style="cursor:pointer;">chinampa</b> es un método tradicional de cultivo, tiene más de 4000 años de ser practicado, se dejó de construir en 1910 debido a la Revolución Mexicana.</p>' +
 			'<div class="popover__content" style="transform: translate(5px, -70px);">' +
@@ -405,7 +405,7 @@ data = [
 		tit: "Entre canoas y trajineras",
 		desc:
 			"<p>Mi amiga, Araceli Peralta, me platica que el desplazamiento en canoas y trajineras es una actividad tradicional en los canales de Xochimilco.</p>" +
-			"<p>Desde la época prehispánica existían diferentes tipos de embarcaciones como el acalli, que significa “casa hecha sobre el agua”, construida con un grueso tronco de ahuehuete o pino.</p>" +
+			"<p>Desde la época prehispánica existían diferentes tipos de embarcaciones como el <i>acalli</i>, que significa “casa hecha sobre el agua”, construida con un grueso tronco de ahuehuete o pino.</p>" +
 			"<p>A mediados del siglo XIX, circulaban embarcaciones hechas de oyamel o abeto donde se trasladaban las personas, quienes también podían transportar verduras y productos locales.</p>" +
 			"<p>Para principios del siglo XX, las canoas se comienzan a usar para fines turísticos, agregando sillas y una cubierta hecha de madera y tule, adornada con gladiolas o alcatraces. Actualmente, las trajineras mantienen colores vistosos.</p>" +
 			'<p>Te compartimos el <a href="https://www.youtube.com/watch?v=XOWF7ScmmRU" target="_blank">documental realizado por el Centro de Información y Documentación Específica de Xochimilco (CIDEX UAMX)</a>, donde podrás conoces más sobre el pasado Xochimilco.</p>',
@@ -460,13 +460,13 @@ data = [
 		desc:
 			"<p>De acuerdo con la Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO), en el mundo se tienen identificadas 1,400 especies de cactáceas, de ellas, 669 especies son mexicanas y tenemos una gran cantidad de endemismos con 518 especies.</p>" +
 			"<p>Por lo que, no debes dejar de visitar nuestro jardín de cactáceas y conocer algunas de sus múltiples formas, colores y tamaños.</p>" +
-			"<p>Las cactáceas son plantas endémicas del continente Americano, adaptadas a zonas áridas, pues su forma globosa les permite almacenar agua y reducir la superficie de evaporación al estar expuestas al sol.</p>",
+			"<p>Las cactáceas son plantas endémicas del continente americano, adaptadas a zonas áridas, pues su forma globosa les permite almacenar agua y reducir la superficie de evaporación al estar expuestas al sol.</p>",
 	},
 	{
 		img: "url(../../../src/imgs/mapa/LETG.jpg)",
 		tit: "Escuela agroecológica chinampera",
 		desc:
-			"<p>La chinampa es la técnica agrícola reconocida a nivela mundial como un sistema eficiente, ya que, genera hasta cuatra cosechas al año.</p>" +
+			"<p>La chinampa es la técnica agrícola reconocida a nivel mundial como un sistema eficiente, ya que, genera hasta cuatro cosechas al año.</p>" +
 			"<p>Por ello, el PEX contará próximamente con una escuela para conservar y transmitir esta técnica agrícola prehispánica, reconocida por la FAO como un Sistema Importante del Patrimonio Agrícola Mundial (SIPAM), entre las generaciones actuales y futuras; para que los estudiantes puedan aprender cómo es el desarrollo de esta técnica de cultivo para hortalizas y flores.</p>" +
 			"<p>Este es un proyecto muy importante impulsado por instancias federales, estatales, académicas y como idea original de la comunidad chinampera.</p>",
 	},

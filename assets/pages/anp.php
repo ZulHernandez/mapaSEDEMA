@@ -28,16 +28,16 @@
                         <a class="nav-link" href="../../index.php">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">ANP</a>
+                        <a class="nav-link active" aria-current="page" href="sinContenido.php">ANP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ACCIONES</a>
+                        <a class="nav-link" href="sinContenido.php">ACCIONES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GALERÍA</a>
+                        <a class="nav-link" href="galeria.php"">GALERÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="sinContenido.php">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -97,50 +97,103 @@
         <p class="text-para">Las 25 ANP de la ciudad abarcan 21,661.31 hectáreas, representando 14.61 por ciento de la superficie total de la capital a cargo de la Secretaría del Medio Ambiente (SEDEMA) y la Comisión Nacional de Áreas Naturales Protegidas (CONANP), algunas en coordinación entre ambas dependencia y alcaldías.</p>
         <br />
         <div class="row">
-            <div class="col-lg-7 col-sm-12">
+        <br />
+            <div>
                 <center>
                     <div id="mapa"></div>
                 </center>
             </div>
-            <div class="col-lg-5 col-sm-12">
-                <ol type="1" style="padding-left: 100px;">
-                    <b>
-                        <span>ANPs administradas por SEDEMA</span>
-                        <li class="anpName">La Armella</li>
-                        <li class="anpName">Sierra de Guadalupe</li>
-                        <li class="anpName">Bosque de las Lomas</li>
-                        <li class="anpName">La Loma</li>
-                        <li class="anpName">Desierto de los leones</li>
-                        <li class="anpName">Insurgente Miguel Hidalgo y Costilla</li>
-                        <li class="anpName">Parque Ecológico de la Ciudad de México</li>
-                        <li class="anpName">Bosque de Tlalpan</li>
-                        <li class="anpName">Ecoguardas</li>
-                        <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>
-                        <li class="anpName">Sierra de Santa Catarina</li>
-                        <li class="anpName">Cerro de la Estrella</li>
-                        <li class="anpName">San Bernabe Ocotepec</li>
-                        <li class="anpName">San Nicolás Totolapan</li>
-                        <li class="anpName">Tempiluli</li>
-                    </b>
-                </ol>
-                <ol type="A" style="padding-left: 100px;">
-                    <b>
-                        <span style="color:#19806f">ANPs administradas por CONANP</span>
-                        <li style="color:#19806f" class="anpName">El Tepeyac</li>
-                        <li style="color:#19806f" class="anpName">Histórico de Coyoacán</li>
-                        <li style="color:#19806f" class="anpName">Los Encinos</li>
-                        <li style="color:#19806f" class="anpName">Lomas de Padierna</li>
-                        <li style="color:#19806f" class="anpName">San Bernabé Ocotepec</li>
-                        <li style="color:#19806f" class="anpName">San Nicolás Totolapan</li>
-                        <li style="color:#19806f" class="anpName">Cumbres del Ajusco</li>
-                        <li style="color:#19806f" class="anpName">San Miguel Ajusco</li>
-                        <li style="color:#19806f" class="anpName">San Miguel Topilejo</li>
-                        <li style="color:#19806f" class="anpName">Fuente Brotantes</li>
-                    </b>
-                </ol>
+            <div class="row">
+                <div class="col-lg col-sm-4">
+                    <ol type="1" style="padding-left: 50px;">
+                        <b>
+                            <a href="sitios/armella.php" target="_self">
+                                <li class="anpName">La Armella</li>
+                            </a>
+                            <a href="sitios/sierraG.php" target="_self">
+                                <li class="anpName">Sierra de Guadalupe</li>
+                            </a>
+                            <a href="sitios/bosqueL.php" target="_self">
+                                <li class="anpName">Bosque de las Lomas</li>
+                            </a>
+                            <a href="sitios/loma.php" target="_self">
+                                <li class="anpName">La Loma</li>
+                            </a>
+                            <a href="sitios/desierto.php" target="_self">
+                                <li class="anpName">Desierto de los leones</li>
+                            </a>
+                            <a href="sitios/insurgente.php" target="_self">
+                                <li class="anpName">Insurgente Miguel Hidalgo y Costilla</li>
+                            </a>
+                            <a href="sitios/pCDMX.php" target="_self">
+                                <li class="anpName">Parque Ecológico de la Ciudad de México</li>
+                            </a>
+                            <a href="sitios/bosqueT.php" target="_self">
+                                <li class="anpName">Bosque de Tlalpan</li>
+                            </a>
+                        </b>
+                    </ol>
+                </div>
+                <div class="col-lg col-sm-4">
+                    <ol type="1" style="padding-left: 50px;" start="9">
+                        <b>
+                            <a href="sitios/ecoguardas.php" target="_self">
+                                <li class="anpName">Ecoguardas</li>
+                            </a>
+                            <a href="sitios/ejidosX.php" target="_self">
+                                <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>
+                            </a>
+                            <a href="sitios/sierraS.php" target="_self">
+                                <li class="anpName">Sierra de Santa Catarina</li>
+                            </a>
+                            <a href="sitios/cerroE.php" target="_self">
+                                <li class="anpName">Cerro de la Estrella</li>
+                            </a>
+                            <a href="sitios/sanB.php" target="_self">
+                                <li class="anpName">San Bernabe Ocotepec</li>
+                            </a>
+                            <a href="sitios/sanN.php" target="_self">
+                                <li class="anpName">San Nicolás Totolapan</li>
+                            </a>
+                            <a href="sitios/tempiluli.php" target="_self">
+                                <li class="anpName">Tempiluli</li>
+                            </a>
+                            <a href="sitios/tepeyac.php" target="_self">
+                                <li class="anpName">El Tepeyac</li>
+                            </a>
+                        </b>
+                    </ol>
+                </div>
+                <div class="col-lg col-sm-4">
+                    <ol type="1" style="padding-left: 50px;" start="17">
+                        <b>
+                            <a href="sitios/coyoacan.php" target="_self">
+                                <li class="anpName">Histórico de Coyoacán</li>
+                            </a>
+                            <a href="sitios/encinos.php" target="_self">
+                                <li class="anpName">Los Encinos</li>
+                            </a>
+                            <a href="sitios/lomasP.php" target="_self">
+                                <li class="anpName">Lomas de Padierna</li>
+                            </a>
+                            <a href="sitios/cumbres.php" target="_self">
+                                <li class="anpName">Cumbres del Ajusco</li>
+                            </a>
+                            <a href="sitios/sanMA.php" target="_self">
+                                <li class="anpName">San Miguel Ajusco</li>
+                            </a>
+                            <a href="sitios/sanMT.php" target="_self">
+                                <li class="anpName">San Miguel Topilejo</li>
+                            </a>
+                            <a href="sitios/fuenteB.php" target="_self">
+                                <li class="anpName">Fuente Brotantes</li>
+                            </a>
+                        </b>
+                    </ol>
+                </div>
             </div>
         </div>
-        <br />
+        <div class="space"></div>
         <p class="text-para">Dichas Áreas Naturales Protegidas se encuentran agrupadas en seis categorías distintas de acuerdo a la Ley General del Equilibrio Ecológico y la Protección al Ambiente (LEGEEPA) y la Ley Ambiental de Protección a la Tierra en el Distrito Federal (LAPTDF), las cuales son: <b>Parque Nacional, Zona de Conservación Ecológica, Zona de Protección Hidrológica y Ecológica, Zona Ecológica y Cultural, Zona Sujeta a Conservación Ecológica y Reserva Ecológica Comunitaria.</b> Es necesario resaltar que Cerro de la Estrella y Sierra de Santa Catarina poseen doble categoría que a continuación se ilustra. </p>
         <br />
         <h3>1. Parque Nacional</h3>
@@ -698,16 +751,16 @@
                             <a class="nav-link" href="../../index.php" style="color: white;">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">ANP</a>
+                            <a class="nav-link active" aria-current="page" href="sinContenido.php" style="color: white;">ANP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">ACCIONES</a>
+                            <a class="nav-link" href="sinContenido.php" style="color: white;">ACCIONES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">GALERÍA</a>
+                            <a class="nav-link" href="galeria.php"">GALERÍA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">CONTACTO</a>
+                            <a class="nav-link" href="sinContenido.php" style="color: white;">CONTACTO</a>
                         </li>
                     </ul>
                 </div>

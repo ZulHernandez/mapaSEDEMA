@@ -51,6 +51,10 @@
     line-height: 2.2vw;
 }
 
+.anpName,a,li  {
+    cursor: pointer;
+}
+
 @media screen and (orientation:  portrait) {
     .text-dia{
         font-size: 1.56vw;

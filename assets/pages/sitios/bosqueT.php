@@ -35,13 +35,13 @@
                         <a class="nav-link" href="../anp.php">ANP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ACCIONES</a>
+                        <a class="nav-link" href="../sinContenido.php">ACCIONES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GALERÍA</a>
+                        <a class="nav-link" href="../galeria.php"">GALERÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="../sinContenido.php">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -222,13 +222,13 @@
                             <a class="nav-link" href="../anp.php" style="color: white;">ANP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">ACCIONES</a>
+                            <a class="nav-link" href="../sinContenido.php" style="color: white;">ACCIONES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">GALERÍA</a>
+                            <a class="nav-link" href="../galeria.php"">GALERÍA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">CONTACTO</a>
+                            <a class="nav-link" href="../sinContenido.php" style="color: white;">CONTACTO</a>
                         </li>
                     </ul>
                 </div>

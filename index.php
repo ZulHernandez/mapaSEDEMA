@@ -31,13 +31,13 @@
                         <a class="nav-link" href="assets/pages/anp.php">ANP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ACCIONES</a>
+                        <a class="nav-link" href="assets/pages/sinContenido.php">ACCIONES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GALERÍA</a>
+                        <a class="nav-link" href="assets/pages/galeria.php">GALERÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="assets/pages/sinContenido.php">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -84,13 +84,13 @@
         <div class="container-lg container-element">
             <h4 style="text-align: center;">Áreas Naturales Protegidas de la Ciudad de México administradas por SEDEMA</h4>
             <br />
+            <div>
+                <center>
+                    <div id="mapa"></div>
+                </center>
+            </div>
             <div class="row">
-                <div class="col-lg-7 col-sm-12">
-                    <center>
-                        <div id="mapa"></div>
-                    </center>
-                </div>
-                <div class="col-lg-5 col-sm-12">
+                <div class="col-lg col-sm-4">
                     <ol type="1" style="padding-left: 50px;">
                         <b>
                             <a href="assets/pages/sitios/armella.php" target="_self">
@@ -105,32 +105,74 @@
                             <a href="assets/pages/sitios/loma.php" target="_self">
                                 <li class="anpName">La Loma</li>
                             </a>
-                            <a href="assets/pages/sitios/insurgente.php" target="_self">
-                                <li class="anpName">Insurgente Miguel Hidalgo y Costilla</>
-                            </a>
                             <a href="assets/pages/sitios/desierto.php" target="_self">
                                 <li class="anpName">Desierto de los leones</li>
                             </a>
-                            <li class="anpName">San Bernabe Ocotepec</li>
-                            <li class="anpName">San Nicolás Totolapan</li>
+                            <a href="assets/pages/sitios/insurgente.php" target="_self">
+                                <li class="anpName">Insurgente Miguel Hidalgo y Costilla</li>
+                            </a>
                             <a href="assets/pages/sitios/pCDMX.php" target="_self">
                                 <li class="anpName">Parque Ecológico de la Ciudad de México</li>
                             </a>
                             <a href="assets/pages/sitios/bosqueT.php" target="_self">
                                 <li class="anpName">Bosque de Tlalpan</li>
                             </a>
+                        </b>
+                    </ol>
+                </div>
+                <div class="col-lg col-sm-4">
+                    <ol type="1" style="padding-left: 50px;" start="9">
+                        <b>
                             <a href="assets/pages/sitios/ecoguardas.php" target="_self">
                                 <li class="anpName">Ecoguardas</li>
                             </a>
                             <a href="assets/pages/sitios/ejidosX.php" target="_self">
                                 <li class="anpName">Ejidos de Xochimilco y San Gregorio Atlapulco</li>
                             </a>
-                            <li class="anpName">Tempiluli</li>
                             <a href="assets/pages/sitios/sierraS.php" target="_self">
                                 <li class="anpName">Sierra de Santa Catarina</li>
                             </a>
                             <a href="assets/pages/sitios/cerroE.php" target="_self">
                                 <li class="anpName">Cerro de la Estrella</li>
+                            </a>
+                            <a href="assets/pages/sitios/sanB.php" target="_self">
+                                <li class="anpName">San Bernabe Ocotepec</li>
+                            </a>
+                            <a href="assets/pages/sitios/sanN.php" target="_self">
+                                <li class="anpName">San Nicolás Totolapan</li>
+                            </a>
+                            <a href="assets/pages/sitios/tempiluli.php" target="_self">
+                                <li class="anpName">Tempiluli</li>
+                            </a>
+                            <a href="assets/pages/sitios/tepeyac.php" target="_self">
+                                <li class="anpName">El Tepeyac</li>
+                            </a>
+                        </b>
+                    </ol>
+                </div>
+                <div class="col-lg col-sm-4">
+                    <ol type="1" style="padding-left: 50px;" start="17">
+                        <b>
+                            <a href="assets/pages/sitios/coyoacan.php" target="_self">
+                                <li class="anpName">Histórico de Coyoacán</li>
+                            </a>
+                            <a href="assets/pages/sitios/encinos.php" target="_self">
+                                <li class="anpName">Los Encinos</li>
+                            </a>
+                            <a href="assets/pages/sitios/lomasP.php" target="_self">
+                                <li class="anpName">Lomas de Padierna</li>
+                            </a>
+                            <a href="assets/pages/sitios/cumbres.php" target="_self">
+                                <li class="anpName">Cumbres del Ajusco</li>
+                            </a>
+                            <a href="assets/pages/sitios/sanMA.php" target="_self">
+                                <li class="anpName">San Miguel Ajusco</li>
+                            </a>
+                            <a href="assets/pages/sitios/sanMT.php" target="_self">
+                                <li class="anpName">San Miguel Topilejo</li>
+                            </a>
+                            <a href="assets/pages/sitios/fuenteB.php" target="_self">
+                                <li class="anpName">Fuente Brotantes</li>
                             </a>
                         </b>
                     </ol>
@@ -200,13 +242,13 @@
                             <a class="nav-link" href="assets/pages/anp.php" style="color: white;">ANP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">ACCIONES</a>
+                            <a class="nav-link" href="assets/pages/sinContenido.php"" style="color: white;">ACCIONES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">GALERÍA</a>
+                            <a class="nav-link" href="assets/pages/galeria.php"">GALERÍA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">CONTACTO</a>
+                            <a class="nav-link" href="assets/pages/sinContenido.php"" style="color: white;">CONTACTO</a>
                         </li>
                     </ul>
                 </div>

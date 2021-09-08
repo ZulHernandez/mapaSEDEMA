@@ -15,7 +15,7 @@
 </head>
 
 <!--onLoad function only accept 4 values: rojo, naranja, amarillo, verde-->
-<body onload="color('naranja');">
+<body onload="color('amarillo');">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #410d1c;">
         <div class="container">
             <a class="navbar-brand" href="../../index.php"><img src="../../src/imgs/headIcon.svg"></a>

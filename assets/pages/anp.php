@@ -94,7 +94,7 @@
         <div class="space"></div>
         <h2>Categorías de ANP en la Ciudad</h2>
         <br />
-        <p class="text-para">Las 25 ANP de la ciudad abarcan 21,661.31 hectáreas, representando 14.61 por ciento de la superficie total de la capital a cargo de la Secretaría del Medio Ambiente (SEDEMA) y la Comisión Nacional de Áreas Naturales Protegidas (CONANP), algunas en coordinación entre ambas dependencia y alcaldías.</p>
+        <p class="text-para">Las 25 ANP de la ciudad abarcan 21,134.19 hectáreas, representando 14.61 por ciento de la superficie total de la capital a cargo de la Secretaría del Medio Ambiente (SEDEMA) y la Comisión Nacional de Áreas Naturales Protegidas (CONANP), algunas en coordinación entre ambas dependencia y alcaldías.</p>
         <br />
         <div class="row">
         <br />

@@ -15,7 +15,7 @@
 
 <!--onLoad function only accept 4 values: rojo, naranja, amarillo, verde-->
 
-<body onload="colorHome('naranja');">
+<body onload="colorHome('amarillo');">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #410d1c;">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="src/imgs/headIcon.svg"></a>
@@ -79,7 +79,7 @@
         <br />
         <p class="text-para">Cuando se habla de la Ciudad de México se piensa en una gigantesca plancha de asfalto conformada por avenidas, grandes edificios y parques urbanos olvidando por un momento la existencia de espacios naturales decretados como <b>Áreas Naturales Protegidas</b> que aún conservan especies de flora y fauna representativas de la Cuenca de México y son de vital importancia debido a que brindan servicios ecosistémicos a todos los seres vivos, en especial a los seres humanos.</p>
         <br />
-        <p class="text-para">Actualmente, en la ciudad existen 25 Áreas Naturales Protegidas que abarcan 21,047.01 hectáreas. <b>La Secretaría del Medio Ambiente coordina 15 de ellas</b>, algunas en coadministración con la Comisión Nacional de Áreas Naturales Protegidas (CONANP), así como alcaldías de la capital.</p>
+        <p class="text-para">Actualmente, en la ciudad existen 25 Áreas Naturales Protegidas que abarcan 21,134.19 hectáreas. <b>La Secretaría del Medio Ambiente coordina 15 de ellas</b>, algunas en coadministración con la Comisión Nacional de Áreas Naturales Protegidas (CONANP), así como alcaldías de la capital.</p>
         <div class="space"></div>
         <div class="container-lg container-element">
             <h4 style="text-align: center;">Áreas Naturales Protegidas de la Ciudad de México administradas por SEDEMA</h4>

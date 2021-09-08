@@ -95,35 +95,35 @@ function draw() {
 																}else {
 																	d = dist(mouseX, mouseY, w / 7.2, w / 20);
 																	if (d <= width / 24) {
-																		drawcircle(w / 7.2, w / 20, 'A', 1);
+																		drawcircle(w / 7.2, w / 20, 16, 1);
 																	}else {
 																		d = dist(mouseX, mouseY, w / 10, w / 6.8);
 																		if (d <= width / 24) {
-																			drawcircle(w / 10, w / 6.8, 'B', 1);
+																			drawcircle(w / 10, w / 6.8, 17, 1);
 																		}else {
 																			d = dist(mouseX, mouseY, w / 12.5, w / 6);
 																			if (d <= width / 24) {
-																				drawcircle(w / 12.5, w / 6, 'C', 1);
+																				drawcircle(w / 12.5, w / 6, 18, 1);
 																			}else {
 																				d = dist(mouseX, mouseY, w / 15, w / 5.6);
 																				if (d <= width / 24) {
-																					drawcircle(w / 15, w / 5.6, 'D', 1);
+																					drawcircle(w / 15, w / 5.6, 19, 1);
 																				}else {
 																					d = dist(mouseX, mouseY, w / 15.2, w / 4.4);
 																					if (d <= width / 24) {
-																						drawcircle(w / 15.2, w / 4.4, 'G', 1);
+																						drawcircle(w / 15.2, w / 4.4, 20, 1);
 																					}else {
 																						d = dist(mouseX, mouseY, w / 20, w / 4.1);
 																						if (d <= width / 24) {
-																							drawcircle(w / 20, w / 4.1, 'H', 1);
+																							drawcircle(w / 20, w / 4.1, 21, 1);
 																						}else {
 																							d = dist(mouseX, mouseY, w / 14, w / 3.7);
 																							if (d <= width / 24) {
-																								drawcircle(w / 14, w / 3.7, 'I', 1);
+																								drawcircle(w / 14, w / 3.7, 22, 1);
 																							}else {
 																								d = dist(mouseX, mouseY, w / 8.5, w / 3.6);
 																								if (d <= width / 24) {
-																									drawcircle(w / 8.5, w / 3.6, 'J', 1);
+																									drawcircle(w / 8.5, w / 3.6, 23, 1);
 																								}
 																							}
 																						}
@@ -216,35 +216,35 @@ function draw() {
 																}else {
 																	d = dist(mouseX, mouseY, w / 7.2, w / 20);
 																	if (d <= width / 24) {
-																		drawcircle(w / 7.2, w / 20, 'A', 1);
+																		drawcircle(w / 7.2, w / 20, 16, 1);
 																	}else {
 																		d = dist(mouseX, mouseY, w / 10, w / 6.8);
 																		if (d <= width / 24) {
-																			drawcircle(w / 10, w / 6.8, 'B', 1);
+																			drawcircle(w / 10, w / 6.8, 17, 1);
 																		}else {
 																			d = dist(mouseX, mouseY, w / 12.5, w / 6);
 																			if (d <= width / 24) {
-																				drawcircle(w / 12.5, w / 6, 'C', 1);
+																				drawcircle(w / 12.5, w / 6, 18, 1);
 																			}else {
 																				d = dist(mouseX, mouseY, w / 15, w / 5.6);
 																				if (d <= width / 24) {
-																					drawcircle(w / 15, w / 5.6, 'D', 1);
+																					drawcircle(w / 15, w / 5.6, 19, 1);
 																				}else {
 																					d = dist(mouseX, mouseY, w / 15.2, w / 4.4);
 																					if (d <= width / 24) {
-																						drawcircle(w / 15.2, w / 4.4, 'G', 1);
+																						drawcircle(w / 15.2, w / 4.4, 20, 1);
 																					}else {
 																						d = dist(mouseX, mouseY, w / 20, w / 4.1);
 																						if (d <= width / 24) {
-																							drawcircle(w / 20, w / 4.1, 'H', 1);
+																							drawcircle(w / 20, w / 4.1, 21, 1);
 																						}else {
 																							d = dist(mouseX, mouseY, w / 14, w / 3.7);
 																							if (d <= width / 24) {
-																								drawcircle(w / 14, w / 3.7, 'I', 1);
+																								drawcircle(w / 14, w / 3.7, 22, 1);
 																							}else {
 																								d = dist(mouseX, mouseY, w / 8.5, w / 3.6);
 																								if (d <= width / 24) {
-																									drawcircle(w / 8.5, w / 3.6, 'J', 1);
+																									drawcircle(w / 8.5, w / 3.6, 23, 1);
 																								}
 																							}
 																						}
@@ -322,47 +322,47 @@ function mousePressed() {
 												} else {
 													d = dist(mouseX, mouseY, w / 18, w / 6.5);
 													if (d <= width / 24) {
-														window.open("assets/pages/sitios/sanB.php", "_self");
+														window.open("assets/pages/sinContenido.php", "_self");
 													} else {
 														d = dist(mouseX, mouseY, w / 18, w / 6);
 														if (d <= width / 24) {
-															window.open("assets/pages/sitios/sanN.php", "_self");
+															window.open("assets/pages/sinContenido.php", "_self");
 														} else {
 															d = dist(mouseX, mouseY, w / 5.5, w / 5.2);
 															if (d <= width / 24) {
-																window.open("assets/pages/sitios/tempiluli.php", "_self");
+																window.open("assets/pages/sinContenido.php", "_self");
 															}else {
 																d = dist(mouseX, mouseY, w / 7.2, w / 20);
 																if (d <= width / 24) {
-																	window.open("assets/pages/sitios/tepeyac.php", "_self");
+																	window.open("assets/pages/sinContenido.php", "_self");
 																}else {
 																	d = dist(mouseX, mouseY, w / 10, w / 6.8);
 																	if (d <= width / 24) {
-																		window.open("assets/pages/sitios/coyoacan.php", "_self");
+																		window.open("assets/pages/sinContenido.php", "_self");
 																	}else {
 																		d = dist(mouseX, mouseY, w / 12.5, w / 6);
 																		if (d <= width / 24) {
-																			window.open("assets/pages/sitios/encinos.php", "_self");
+																			window.open("assets/pages/sinContenido.php", "_self");
 																		}else {
 																			d = dist(mouseX, mouseY, w / 15, w / 5.6);
 																			if (d <= width / 24) {
-																				window.open("assets/pages/sitios/lomasP.php", "_self");
+																				window.open("assets/pages/sinContenido.php", "_self");
 																			}else {
 																				d = dist(mouseX, mouseY, w / 15.2, w / 4.4);
 																				if (d <= width / 24) {
-																					window.open("assets/pages/sitios/cumbres.php", "_self");
+																					window.open("assets/pages/sinContenido.php", "_self");
 																				}else {
 																					d = dist(mouseX, mouseY, w / 20, w / 4.1);
 																					if (d <= width / 24) {
-																						window.open("assets/pages/sitios/sanMA.php", "_self");
+																						window.open("assets/pages/sinContenido.php", "_self");
 																					}else {
 																						d = dist(mouseX, mouseY, w / 14, w / 3.7);
 																						if (d <= width / 24) {
-																							window.open("assets/pages/sitios/sanMT.php", "_self");
+																							window.open("assets/pages/sinContenido.php", "_self");
 																						}else {
 																							d = dist(mouseX, mouseY, w / 8.5, w / 3,6);
 																							if (d <= width / 24) {
-																								window.open("assets/pages/sitios/fuenteB.php", "_self");
+																								window.open("assets/pages/sinContenido.php", "_self");
 																							}
 																						}
 																					}
@@ -405,14 +405,14 @@ function anpNum() {
 	drawcircle(w / 18, w / 6, 14, 0);
 	drawcircle(w / 5.5, w / 5.2, 15, 0);
 
-	drawcircle(w / 7.2, w / 20, 'A', 0);
-	drawcircle(w / 10, w / 6.8, 'B', 0);
-	drawcircle(w / 12.5, w / 6, 'C', 0);
-	drawcircle(w / 15, w / 5.6, 'D', 0);
-	drawcircle(w / 15.2, w / 4.4, 'G', 0);
-	drawcircle(w / 20, w / 4.1, 'H', 0);
-	drawcircle(w / 14, w / 3.7, 'I', 0);
-	drawcircle(w / 8.5, w / 3.6, 'J', 0);
+	drawcircle(w / 7.2, w / 20, 16, 0);
+	drawcircle(w / 10, w / 6.8, 17, 0);
+	drawcircle(w / 12.5, w / 6, 18, 0);
+	drawcircle(w / 15, w / 5.6, 19, 0);
+	drawcircle(w / 15.2, w / 4.4, 20, 0);
+	drawcircle(w / 20, w / 4.1, 21, 0);
+	drawcircle(w / 14, w / 3.7, 22, 0);
+	drawcircle(w / 8.5, w / 3.6, 23, 0);
 }
 
 function alcaldias() {

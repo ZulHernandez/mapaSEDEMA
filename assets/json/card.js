@@ -889,3 +889,51 @@ imgAyu = [
 		desc: "<p></p>",
 	},
 ];
+
+imgAcc = [
+	{
+		img: "url(../../../src/imgs/acciones/1.jpg)",
+		tit: "Reubicación de fauna silvestre para su rescate",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/2.jpg)",
+		tit: "Monitoreo de flora y fauna",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/3.jpg)",
+		tit: "Recorridos de vigilancia para la prevención de incendios forestales",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/4.jpg)",
+		tit: "Esparcimiento de mulch para aminorar la compactación de suelo natural",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/5.jpg)",
+		tit: "Reforestación con especies propias de cada área Natural Protegida",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/6.jpg)",
+		tit: "Recolección de residuos sólidos",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/7.jpg)",
+		tit: "Retiro de material combustible forestal para prevención de incendios forestales",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/8.jpg)",
+		tit: "Control de incendios forestales",
+		desc: "<p></p>",
+	},
+	{
+		img: "url(../../../src/imgs/acciones/9.jpg)",
+		tit: "Talleres de educación ambiental",
+		desc: "<p></p>",
+	},
+];

@@ -28,7 +28,7 @@
                         <a class="nav-link" href="anp.php">ANP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ACCIONES</a>
+                        <a class="nav-link" href="acciones.php">ACCIONES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="galeria.php">GALERÍA</a>
@@ -67,16 +67,16 @@
                             <a class="nav-link" href="../../index.php" style="color: white;">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">ANP</a>
+                            <a class="nav-link" href="anp.php" style="color: white;">ANP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">ACCIONES</a>
+                            <a class="nav-link" href="acciones.php" style="color: white;">ACCIONES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">GALERÍA</a>
+                            <a class="nav-link" href="galeria.php" style="color: white;">GALERÍA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galeria.php" style="color: white;">CONTACTO</a>
+                            <a class="nav-link" href="#" style="color: white;">CONTACTO</a>
                         </li>
                     </ul>
                 </div>

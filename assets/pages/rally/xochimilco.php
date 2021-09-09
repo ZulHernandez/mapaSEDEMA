@@ -32,13 +32,13 @@
                         <a class="nav-link" href="../anp.php">ANP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../sinContenido.php">ACCIONES</a>
+                        <a class="nav-link" href="../acciones.php">ACCIONES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.php"">GALERÍA</a>
+                        <a class="nav-link" href="../galeria.php"">GALERÍA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sinContenido.php">CONTACTO</a>
+                        <a class="nav-link" href="../sinContenido.php">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -106,13 +106,13 @@
                             <a class="nav-link" href="../anp.php" style="color: white;">ANP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sinContenido.php" style="color: white;">ACCIONES</a>
+                            <a class="nav-link" href="../acciones.php" style="color: white;">ACCIONES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galeria.php"">GALERÍA</a>
+                            <a class="nav-link" href="../galeria.php"">GALERÍA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sinContenido.php" style="color: white;">CONTACTO</a>
+                            <a class="nav-link" href="../sinContenido.php" style="color: white;">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
